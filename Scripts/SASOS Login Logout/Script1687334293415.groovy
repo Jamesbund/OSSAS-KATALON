@@ -29,6 +29,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Passwo
 
 WebUI.click(findTestObject('Object Repository/Page_Login/i_Password_icon fa fa-eye-slash fa-2x'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Page_Login/i_Password_icon fa fa-eye fa-2x'))
 
 WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))

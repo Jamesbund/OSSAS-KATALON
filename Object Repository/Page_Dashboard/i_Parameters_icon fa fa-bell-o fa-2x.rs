@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Parameters_icon fa fa-bell-o fa-2x</name>
+   <tag></tag>
+   <elementGuidId>f77008d1-05a4-442e-9a1a-d0f1a32fda8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-bell-o.fa-2x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b7-Icon']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4020c5a7-4b19-40ac-b1a4-e7a87158f1b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-bell-o fa-2x</value>
+      <webElementGuid>46e13b3e-1f5c-4f21-ade9-809c9719bd4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b7-Icon&quot;)/i[@class=&quot;icon fa fa-bell-o fa-2x&quot;]</value>
+      <webElementGuid>f9644960-342c-40fd-af19-29d68b074fac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b7-Icon']/i</value>
+      <webElementGuid>f540cc16-4df9-42ea-87f4-d3a665ac91a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/i</value>
+      <webElementGuid>4769831e-8c2a-42a7-a000-3b1f9b5df56a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

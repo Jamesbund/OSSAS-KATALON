@@ -41,6 +41,8 @@ WebUI.click(findTestObject('SAS Login and Logout/Page_Dashboard/div_Create New S
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/span_Add New'))
 
+WebUI.delay(5)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
     '0', true)
 

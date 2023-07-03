@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_Input_PasswordVal</name>
+   <name>select_--Select--Sto. TomasLemeryBatangasRo_dd9050</name>
    <tag></tag>
-   <elementGuidId>bfde5628-052e-4026-8c1a-dbe7ae9c24c7</elementGuidId>
+   <elementGuidId>09fb1113-5b88-477b-b2cb-17e7dfb92edd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Input_PasswordVal</value>
+         <value>#Dropdown4</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Input_PasswordVal']</value>
+         <value>//select[@id='Dropdown4']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,71 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>7c966142-0755-473e-a47f-07af4cf40712</webElementGuid>
+      <value>select</value>
+      <webElementGuid>6279e818-6fad-4672-89a2-ae524eab13c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control login-password OSFillParent</value>
-      <webElementGuid>292faf80-6315-474f-96a1-739deddfbdb3</webElementGuid>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>f92c501d-d360-41a8-9720-8df6b86fe568</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>5e994807-a319-418c-a658-64c181553890</webElementGuid>
+      <value>false</value>
+      <webElementGuid>c00aee89-07fc-4471-a396-b25a9d4e9e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Input_PasswordVal</value>
-      <webElementGuid>e9ff8a21-db6a-4bdf-b364-8f135c49c439</webElementGuid>
+      <value>Dropdown4</value>
+      <webElementGuid>3a36bf31-795a-49b4-acbb-2816a94c00b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--Sto. TomasLemeryBatangasRosarioLipa BranchBalayanNasugbuTanauan</value>
+      <webElementGuid>f6f1fac6-bdc8-43d1-9624-237b9ce838c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Input_PasswordVal&quot;)</value>
-      <webElementGuid>8b662561-e044-4860-845c-658b1959f7b6</webElementGuid>
+      <value>id(&quot;Dropdown4&quot;)</value>
+      <webElementGuid>269c206d-c1c5-4f5e-a1d8-32ae6013548e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Input_PasswordVal']</value>
-      <webElementGuid>91bff8f0-6109-4594-9ed0-36edb0b85145</webElementGuid>
+      <value>//select[@id='Dropdown4']</value>
+      <webElementGuid>02333012-5cdd-49b9-810c-7966cf326dc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b4-Column1']/span/input</value>
-      <webElementGuid>a4b0e47f-e687-49cb-91ac-ea6b4ec42a8d</webElementGuid>
+      <value>//div[@id='Dropdown4-container']/select</value>
+      <webElementGuid>66df5c3f-92b4-44fd-ad6c-dfa2ccce1e7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div[2]/div/div/div/span/input</value>
-      <webElementGuid>4d112f65-6718-4f63-ba7b-2b800576eaa3</webElementGuid>
+      <value>//div[3]/div/select</value>
+      <webElementGuid>857ba505-6008-4731-a214-2f9dacb8ab1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'Input_PasswordVal']</value>
-      <webElementGuid>0c172362-3872-48e2-b0b4-0ee08b8e6adc</webElementGuid>
+      <value>//select[@id = 'Dropdown4' and (text() = '--Select--Sto. TomasLemeryBatangasRosarioLipa BranchBalayanNasugbuTanauan' or . = '--Select--Sto. TomasLemeryBatangasRosarioLipa BranchBalayanNasugbuTanauan')]</value>
+      <webElementGuid>fa5d5fe9-4850-4f99-9748-477c65bc9278</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

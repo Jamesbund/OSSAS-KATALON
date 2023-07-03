@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Previous</name>
    <tag></tag>
-   <elementGuidId>9ce46dc1-50ca-4f0a-b8cf-ac3ce92034f5</elementGuidId>
+   <elementGuidId>b7781521-e432-48b0-9842-9dc2fcf0451c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.OSFillParent</value>
+         <value>div:nth-of-type(3) > button.btn.btn-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>94a19a4c-c83c-4fcf-a3a0-5bcce2f37aab</webElementGuid>
+      <webElementGuid>f14ddaa7-9d47-4395-94a0-8885072f2553</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary OSFillParent</value>
-      <webElementGuid>33fd6738-bce1-4032-acf1-0afb97f0af22</webElementGuid>
+      <value>btn btn-primary</value>
+      <webElementGuid>451328be-8118-4780-b75b-435461623973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>deb3a6d1-5374-4496-97f4-a45f80a2ee0c</webElementGuid>
+      <webElementGuid>753c9810-4a5d-43ab-9c04-e83edc93c73d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>ee485585-58c6-47a3-9e10-9bf267d8cb1f</webElementGuid>
+      <value>Previous</value>
+      <webElementGuid>8eda4aa7-3b7a-4e7f-87a3-37729779b950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b7-Button&quot;)/button[@class=&quot;btn btn-primary OSFillParent&quot;]</value>
-      <webElementGuid>b9df5331-a5a5-4124-b157-097e982ded86</webElementGuid>
+      <value>id(&quot;UsernameandPassword&quot;)/div[3]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>44f86067-57f4-423e-8a7d-7f30afcb92a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,46 +62,62 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>0b9b9a11-60ff-48c1-832b-89e3c9a94dab</webElementGuid>
+      <webElementGuid>fd18ca4e-5300-47b1-990d-3cad39ba680c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b7-Button']/button</value>
-      <webElementGuid>4ce59d0f-68f1-4518-9659-a748ee8ed0ca</webElementGuid>
+      <value>//div[@id='UsernameandPassword']/div[3]/button</value>
+      <webElementGuid>11d2e837-9cea-4328-adc5-408b1baf4e54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</value>
-      <webElementGuid>5ea5944b-c776-4cc8-81d0-898e180d0037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Phone'])[1]/following::button[1]</value>
+      <webElementGuid>ebd41b77-ce96-4801-b422-0d30fc086d77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>31f10aa2-e25c-4563-a9c1-8b8f9daba736</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::button[1]</value>
+      <webElementGuid>d28ab5f2-9a15-4bc4-8a14-1d3118f770ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::button[2]</value>
+      <webElementGuid>1bb1b494-c8d4-456e-997d-ea443ed39358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Previous']/parent::*</value>
+      <webElementGuid>910f5e5a-ed97-4bb4-b205-17606ad5b3ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>e781b15c-6b1d-43bd-bfac-ea0f9e652e36</webElementGuid>
+      <value>//div[3]/button</value>
+      <webElementGuid>e8cec7d3-4a6b-4998-a1b2-18b52c707a8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>1a4e565b-958a-4522-8500-57e25d47e9f5</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Previous' or . = 'Previous')]</value>
+      <webElementGuid>88eae9b0-7248-44cb-8c2a-56b3994545e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

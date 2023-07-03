@@ -27,6 +27,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Object Repository/User Management/Page_Login/input_Username_Input_UsernameVal'), 'James Aldrine')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/User Management/Page_Login/input_Password_Input_PasswordVal'), 
@@ -50,8 +52,6 @@ WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Close_vs
 
 WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/span_walasir 5'))
 
-not_run: WebUI.rightClick(findTestObject('Object Repository/User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'))
-
 //
 // Get the current date and create a Calendar instance
 Calendar calendar = Calendar.getInstance()
@@ -73,5 +73,61 @@ WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Expirati
 
 WebUI.clickOffset(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 60, 0)
 
+'To be continued...'
 WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 'a')
+
+WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_Staff Id No_Input_StaffId2'), '202209-52977')
+
+WebUI.click(findTestObject('User Management/Page_UserManagement/Page_UserManagement/Page_UserManagement/button_Nextfirst'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_OK'))
+
+WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_First NameMiddleNamelastName_Input_Name'), 'Juan')
+
+WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_First NameMiddleNamelastName_Input_Name2'), 'D')
+
+WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_First NameMiddleNamelastName_Input_Name3'), 'Dela Cruz')
+
+WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_Mobile Phone_MobileNumber'), '09090000000')
+
+WebUI.click(findTestObject('User Management/Page_UserManagement/button_Next01'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--PangasinanBatangasCaviteMi_05c99a'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--Sto. TomasLemeryBatangasRo_dd9050'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--AGRIBANKBankAdminBatangas _a0a28e'), 
+    '15', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--Area ManagerBook KeeperSto_e31272'), 
+    '4', true)
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_OK'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_Close'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_----5--------10--------15--------20-_8e1c87'), 
+    '1', true)
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/i_Activate_icon fa fa-clock-o fa-1x'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/i_USER ACCESS EXPIRATION DATE_icon fa fa-ti_eb519f'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/i_User Management_icon fa fa-power-off fa-2x'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_Logout'))
+
+WebUI.closeBrowser()
 

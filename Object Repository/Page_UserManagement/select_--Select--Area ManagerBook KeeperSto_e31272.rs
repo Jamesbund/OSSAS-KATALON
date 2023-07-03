@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>select_--Select--Area ManagerBook KeeperSto_e31272</name>
    <tag></tag>
-   <elementGuidId>9ce46dc1-50ca-4f0a-b8cf-ac3ce92034f5</elementGuidId>
+   <elementGuidId>7d733175-47b8-4aa8-917d-c29723983a4d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.OSFillParent</value>
+         <value>#Dropdown6</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//select[@id='Dropdown6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>94a19a4c-c83c-4fcf-a3a0-5bcce2f37aab</webElementGuid>
+      <value>select</value>
+      <webElementGuid>1b5234e9-c55f-495a-9ce3-8ddf96ede0a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary OSFillParent</value>
-      <webElementGuid>33fd6738-bce1-4032-acf1-0afb97f0af22</webElementGuid>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>a87de4ff-0d8c-4c53-8634-e30d2f2255f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>11943015-93a1-4fc9-b583-048ab3dfb80c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>deb3a6d1-5374-4496-97f4-a45f80a2ee0c</webElementGuid>
+      <value>Dropdown6</value>
+      <webElementGuid>3651d052-3a46-4403-b95d-1ca38e956715</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>ee485585-58c6-47a3-9e10-9bf267d8cb1f</webElementGuid>
+      <value>--Select--Area ManagerBook KeeperStock AdminSec AdminApp AdminComplianceFinanceRisk</value>
+      <webElementGuid>73a82723-b0a5-4893-a66e-4df04e048a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b7-Button&quot;)/button[@class=&quot;btn btn-primary OSFillParent&quot;]</value>
-      <webElementGuid>b9df5331-a5a5-4124-b157-097e982ded86</webElementGuid>
+      <value>id(&quot;Dropdown6&quot;)</value>
+      <webElementGuid>2061e0d5-13a4-4b25-a4b1-f452d69f54fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>0b9b9a11-60ff-48c1-832b-89e3c9a94dab</webElementGuid>
+      <value>//select[@id='Dropdown6']</value>
+      <webElementGuid>a36264a8-9b6a-428b-a11d-dd5d536a7c88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b7-Button']/button</value>
-      <webElementGuid>4ce59d0f-68f1-4518-9659-a748ee8ed0ca</webElementGuid>
+      <value>//div[@id='Dropdown6-container']/select</value>
+      <webElementGuid>63335295-1894-48da-bc30-22966dc62a24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</value>
-      <webElementGuid>5ea5944b-c776-4cc8-81d0-898e180d0037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::select[1]</value>
+      <webElementGuid>911caf97-4e0d-4c83-8154-19a8e8cc2b79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>31f10aa2-e25c-4563-a9c1-8b8f9daba736</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::select[1]</value>
+      <webElementGuid>97ea6a34-48b7-45f5-b385-e0c5fd7fff2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>e781b15c-6b1d-43bd-bfac-ea0f9e652e36</webElementGuid>
+      <value>//div[5]/div/select</value>
+      <webElementGuid>7577f01c-10b2-473d-bda4-b3d68f71e4b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>1a4e565b-958a-4522-8500-57e25d47e9f5</webElementGuid>
+      <value>//select[@id = 'Dropdown6' and (text() = '--Select--Area ManagerBook KeeperStock AdminSec AdminApp AdminComplianceFinanceRisk' or . = '--Select--Area ManagerBook KeeperStock AdminSec AdminApp AdminComplianceFinanceRisk')]</value>
+      <webElementGuid>c61f4496-8610-4b3d-b278-b58523a82025</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

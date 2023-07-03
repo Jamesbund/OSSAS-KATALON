@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Activate_icon fa fa-clock-o fa-1x</name>
+   <tag></tag>
+   <elementGuidId>2b3ba4da-c1cc-4481-9959-4990f7a96f9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContent']/div/table/tbody/tr[4]/td[9]/div/button[2]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>cff809c0-05ec-4e33-9929-7509e9b8fa6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-clock-o fa-1x</value>
+      <webElementGuid>59cb2356-6fa0-4a39-8827-f28d823e49db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContent&quot;)/div[1]/table[@class=&quot;table&quot;]/tbody[1]/tr[@class=&quot;table-row&quot;]/td[9]/div[1]/button[@class=&quot;btn btn-primary&quot;]/div[1]/i[@class=&quot;icon fa fa-clock-o fa-1x&quot;]</value>
+      <webElementGuid>4d92994b-5556-4caa-9f06-8bb03274baa1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContent']/div/table/tbody/tr[4]/td[9]/div/button[2]/div/i</value>
+      <webElementGuid>ab054f74-76ae-4e5d-9a0c-7c0f8d0db49c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[9]/div/button[2]/div/i</value>
+      <webElementGuid>36d5b725-8d9d-4495-a845-3d63079e943d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

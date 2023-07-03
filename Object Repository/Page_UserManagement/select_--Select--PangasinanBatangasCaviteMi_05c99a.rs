@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_Input_UsernameVal</name>
+   <name>select_--Select--PangasinanBatangasCaviteMi_05c99a</name>
    <tag></tag>
-   <elementGuidId>c92004c1-1f92-4344-9dfa-e6167bc94f5c</elementGuidId>
+   <elementGuidId>3d4de24d-873e-4c22-87b1-b534cdf7edaf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Input_UsernameVal</value>
+         <value>#Dropdown3</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Input_UsernameVal']</value>
+         <value>//select[@id='Dropdown3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>82b4c7b5-bfde-424a-b4dc-e54a720297f1</webElementGuid>
+      <value>select</value>
+      <webElementGuid>f26a9036-229a-4b91-8d94-506e91ad6d65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control OSFillParent</value>
-      <webElementGuid>f09c3cd8-557e-4ecd-9350-b70818879390</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>65955d39-42d6-4bc1-a5e5-83c48f11500e</webElementGuid>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>cec970cc-b9ae-47c9-8aad-3c89820acb05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>aria-disabled</name>
       <type>Main</type>
-      <value>250</value>
-      <webElementGuid>119c2072-4035-4bd5-b371-81b4277eed77</webElementGuid>
+      <value>false</value>
+      <webElementGuid>8426b27b-ed8f-49af-82d1-61c267bf8a99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Input_UsernameVal</value>
-      <webElementGuid>ed4084c2-2490-403c-b23f-373bc676eafc</webElementGuid>
+      <value>Dropdown3</value>
+      <webElementGuid>fb2aa9ec-5bdc-4e58-bab5-0b84ad725493</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select--PangasinanBatangasCaviteMisamis OrientalZamboangaIlocos SurBataanSan Jose del MonteSouth CotabatoCebuPanaboSME Default RegionLagunaCamSurPalawanGMANCRZambales</value>
+      <webElementGuid>44feed12-d95f-4a8b-afe6-e09f8e5fc621</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Input_UsernameVal&quot;)</value>
-      <webElementGuid>72cbebf3-b3d4-45f4-b416-b5acd9b1ccde</webElementGuid>
+      <value>id(&quot;Dropdown3&quot;)</value>
+      <webElementGuid>a4235e44-ba99-4e65-a57f-742293498092</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Input_UsernameVal']</value>
-      <webElementGuid>0ec2ffa3-d40c-40ff-a73a-165256cb2644</webElementGuid>
+      <value>//select[@id='Dropdown3']</value>
+      <webElementGuid>c82f6458-ff4a-443c-8990-cc0ac2529565</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-Input']/span/input</value>
-      <webElementGuid>57d3d564-13cf-49fa-b557-b98e7cd04f16</webElementGuid>
+      <value>//div[@id='Dropdown3-container']/select</value>
+      <webElementGuid>1740f8a4-b102-4acc-a92c-365de522835b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>ea623241-3c00-4852-a621-fabf07f462c6</webElementGuid>
+      <value>//form/div[2]/div[2]/div/select</value>
+      <webElementGuid>b05a1822-7c35-4531-8267-db1d2d3a4f66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'Input_UsernameVal']</value>
-      <webElementGuid>119ba8e8-3596-48e9-ad0d-adc8f4bbd3c5</webElementGuid>
+      <value>//select[@id = 'Dropdown3' and (text() = '--Select--PangasinanBatangasCaviteMisamis OrientalZamboangaIlocos SurBataanSan Jose del MonteSouth CotabatoCebuPanaboSME Default RegionLagunaCamSurPalawanGMANCRZambales' or . = '--Select--PangasinanBatangasCaviteMisamis OrientalZamboangaIlocos SurBataanSan Jose del MonteSouth CotabatoCebuPanaboSME Default RegionLagunaCamSurPalawanGMANCRZambales')]</value>
+      <webElementGuid>afdafb19-a316-4bac-99d7-3c37dc878f4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

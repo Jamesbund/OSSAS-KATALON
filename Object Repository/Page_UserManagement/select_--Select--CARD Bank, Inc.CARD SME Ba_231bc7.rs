@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7</name>
    <tag></tag>
-   <elementGuidId>9ce46dc1-50ca-4f0a-b8cf-ac3ce92034f5</elementGuidId>
+   <elementGuidId>74c81b15-e12b-4d45-8185-f82a322ee488</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.OSFillParent</value>
+         <value>#Dropdown2</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//select[@id='Dropdown2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>94a19a4c-c83c-4fcf-a3a0-5bcce2f37aab</webElementGuid>
+      <value>select</value>
+      <webElementGuid>f02ab272-89c8-4a12-a1f4-22fc0f6c27e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary OSFillParent</value>
-      <webElementGuid>33fd6738-bce1-4032-acf1-0afb97f0af22</webElementGuid>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>62d743ee-76a8-471c-948f-7d47f8d13696</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>35734846-2170-4234-918e-cf212891a64c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>deb3a6d1-5374-4496-97f4-a45f80a2ee0c</webElementGuid>
+      <value>Dropdown2</value>
+      <webElementGuid>0625e36a-066e-4b62-808c-52b9db1504d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>ee485585-58c6-47a3-9e10-9bf267d8cb1f</webElementGuid>
+      <value>--Select--CARD Bank, Inc.CARD SME Bank Inc.CARD MRI Rizal Bank Inc.CARD Inc.</value>
+      <webElementGuid>fbcffa6d-0c29-4568-9429-839e73fb1f30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b7-Button&quot;)/button[@class=&quot;btn btn-primary OSFillParent&quot;]</value>
-      <webElementGuid>b9df5331-a5a5-4124-b157-097e982ded86</webElementGuid>
+      <value>id(&quot;Dropdown2&quot;)</value>
+      <webElementGuid>7411b3d6-f0ca-45ce-a069-dd27e88c70e5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>0b9b9a11-60ff-48c1-832b-89e3c9a94dab</webElementGuid>
+      <value>//select[@id='Dropdown2']</value>
+      <webElementGuid>a950b65e-2f9c-4e46-8486-8752c5f3ebdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b7-Button']/button</value>
-      <webElementGuid>4ce59d0f-68f1-4518-9659-a748ee8ed0ca</webElementGuid>
+      <value>//div[@id='Dropdown2-container']/select</value>
+      <webElementGuid>abc77b5d-4250-47db-ad16-0a37317fce0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</value>
-      <webElementGuid>5ea5944b-c776-4cc8-81d0-898e180d0037</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>31f10aa2-e25c-4563-a9c1-8b8f9daba736</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assigned Office'])[1]/following::select[1]</value>
+      <webElementGuid>e921fcd9-11f5-402f-9050-118e0475a57d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>e781b15c-6b1d-43bd-bfac-ea0f9e652e36</webElementGuid>
+      <value>//form/div[2]/div/div/select</value>
+      <webElementGuid>1e0f32e2-b2e8-46a5-85f2-a7c2a49cfc89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>1a4e565b-958a-4522-8500-57e25d47e9f5</webElementGuid>
+      <value>//select[@id = 'Dropdown2' and (text() = '--Select--CARD Bank, Inc.CARD SME Bank Inc.CARD MRI Rizal Bank Inc.CARD Inc.' or . = '--Select--CARD Bank, Inc.CARD SME Bank Inc.CARD MRI Rizal Bank Inc.CARD Inc.')]</value>
+      <webElementGuid>42e96825-15bb-4a84-bef7-516155179a95</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

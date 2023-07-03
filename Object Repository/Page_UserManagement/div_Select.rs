@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>div_Select</name>
    <tag></tag>
-   <elementGuidId>9ce46dc1-50ca-4f0a-b8cf-ac3ce92034f5</elementGuidId>
+   <elementGuidId>d701ba56-6000-4f5c-bd16-eea72a3742b7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.OSFillParent</value>
+         <value>div.vscomp-toggle-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//div[@id='vscomp-ele-wrapper-3124']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,109 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>94a19a4c-c83c-4fcf-a3a0-5bcce2f37aab</webElementGuid>
+      <value>div</value>
+      <webElementGuid>1707be51-757c-4dfd-bc49-6373c3cd528c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary OSFillParent</value>
-      <webElementGuid>33fd6738-bce1-4032-acf1-0afb97f0af22</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>deb3a6d1-5374-4496-97f4-a45f80a2ee0c</webElementGuid>
+      <value>vscomp-toggle-button</value>
+      <webElementGuid>b394ec11-de36-45f1-9391-b28d8dbe4090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>ee485585-58c6-47a3-9e10-9bf267d8cb1f</webElementGuid>
+      <value>
+          
+            Select...
+          
+
+          
+
+          
+            
+          
+        </value>
+      <webElementGuid>35a38e51-f7ff-49db-97ae-02d363e23e0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b7-Button&quot;)/button[@class=&quot;btn btn-primary OSFillParent&quot;]</value>
-      <webElementGuid>b9df5331-a5a5-4124-b157-097e982ded86</webElementGuid>
+      <value>id(&quot;vscomp-ele-wrapper-3124&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]</value>
+      <webElementGuid>6018d838-1ecb-49c9-9e07-d2dfe8bfab4d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>0b9b9a11-60ff-48c1-832b-89e3c9a94dab</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b7-Button']/button</value>
-      <webElementGuid>4ce59d0f-68f1-4518-9659-a748ee8ed0ca</webElementGuid>
+      <value>//div[@id='vscomp-ele-wrapper-3124']/div</value>
+      <webElementGuid>42ac37a0-04a1-4506-8b90-f7bcda98d9ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::button[1]</value>
-      <webElementGuid>5ea5944b-c776-4cc8-81d0-898e180d0037</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Step'])[3]/following::div[5]</value>
+      <webElementGuid>6a1edf9a-a0b0-4cad-a3e0-f51df800b972</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>31f10aa2-e25c-4563-a9c1-8b8f9daba736</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Step'])[2]/following::div[11]</value>
+      <webElementGuid>895520e0-c821-488f-bda2-fba53112906f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login Credentials'])[1]/preceding::div[4]</value>
+      <webElementGuid>346e1b76-74bb-41b9-8486-fae6550c4904</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>e781b15c-6b1d-43bd-bfac-ea0f9e652e36</webElementGuid>
+      <value>//div[3]/div/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>0162aa46-6926-432f-83a9-d5496fef937b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>1a4e565b-958a-4522-8500-57e25d47e9f5</webElementGuid>
+      <value>//div[(text() = '
+          
+            Select...
+          
+
+          
+
+          
+            
+          
+        ' or . = '
+          
+            Select...
+          
+
+          
+
+          
+            
+          
+        ')]</value>
+      <webElementGuid>80ff1471-f362-4598-aff4-4df28a1f637e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

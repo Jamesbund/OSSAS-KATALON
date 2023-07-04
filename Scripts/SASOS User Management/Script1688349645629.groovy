@@ -73,7 +73,6 @@ WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Expirati
 
 WebUI.clickOffset(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 60, 0)
 
-'To be continued...'
 WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 'a')
 
 WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_Staff Id No_Input_StaffId2'), '202209-52977')
@@ -128,6 +127,8 @@ WebUI.click(findTestObject('Object Repository/Page_UserManagement/i_USER ACCESS 
 WebUI.click(findTestObject('Object Repository/Page_UserManagement/i_User Management_icon fa fa-power-off fa-2x'))
 
 WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_Logout'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

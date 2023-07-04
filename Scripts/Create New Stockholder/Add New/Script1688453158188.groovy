@@ -36,6 +36,8 @@ WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_Login/
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_Login/button_Login'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_DasHboaRd/div_Stockholder Information_osui-submenu__h_be17fb'))
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_DasHboaRd/span_Create New Stockholder'))

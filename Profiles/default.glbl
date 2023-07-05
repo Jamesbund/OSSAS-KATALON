@@ -4,4 +4,22 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+<<<<<<< HEAD
+=======
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'James Aldrine'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+>>>>>>> 014c9ea1fd2aa6e15af98d1cf8f02ecc3349cf08
 </GlobalVariableEntities>

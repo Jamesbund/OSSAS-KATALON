@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Add user_icon fa fa-user-plus fa-2x</name>
+   <tag></tag>
+   <elementGuidId>1ba2d725-774b-4d52-9139-4067993a802e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-user-plus.fa-2x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b16-Column1']/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>7678a539-ad09-4e88-8a4a-59fe7f859013</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-user-plus fa-2x</value>
+      <webElementGuid>9803838b-c79c-46ec-8129-4767fde023b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b16-Column1&quot;)/button[@class=&quot;btn&quot;]/i[@class=&quot;icon fa fa-user-plus fa-2x&quot;]</value>
+      <webElementGuid>29720837-4f78-4f78-80f4-09ecdde33e3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b16-Column1']/button/i</value>
+      <webElementGuid>955d80f9-6412-4187-bf63-da73366456c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/i</value>
+      <webElementGuid>7878e114-323f-4137-98bd-c6e7de628087</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

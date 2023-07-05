@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Next</name>
+   <tag></tag>
+   <elementGuidId>5da057ca-f7b5-4fe3-a650-2eb15eec7fb2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.ThemeGrid_Width2 > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='FormInsti']/div[3]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c7699e8e-5435-4f90-93ec-be893d37cc5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Next</value>
+      <webElementGuid>a9a9c937-8856-43f9-b7a1-6eb93ca70022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FormInsti&quot;)/div[3]/button[@class=&quot;btn btn-primary ThemeGrid_Width2&quot;]/span[1]</value>
+      <webElementGuid>343c6253-38b3-4951-ac64-7845dc94bb61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='FormInsti']/div[3]/button/span</value>
+      <webElementGuid>042b0ba0-a6a9-4526-a9e8-90e948dc189d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CIF/ID Number'])[1]/following::span[2]</value>
+      <webElementGuid>9d8076c7-c926-4c9d-8ed7-0ca61186a56e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Types'])[1]/following::span[3]</value>
+      <webElementGuid>372b5f19-d793-4eb8-9944-d5a3a816836e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Developed by: CARD MRI Information Technology, Inc. (CMIT)'])[1]/preceding::span[1]</value>
+      <webElementGuid>56b9aff5-2a30-46bd-8e8e-70de112418e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password Here!'])[1]/preceding::span[2]</value>
+      <webElementGuid>0d3a7e88-5a55-42d9-aba8-04832f04705e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>4fdb2f0c-7d5d-4094-b5a6-5540945dabf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Next' or . = ' Next')]</value>
+      <webElementGuid>2ca956b8-b826-4a41-91ed-9b615a468890</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

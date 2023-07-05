@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 
+=======
+.gradle
+
+bin
+
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
+>>>>>>> 014c9ea1fd2aa6e15af98d1cf8f02ecc3349cf08
 /bin/
 /Libs/
 /.settings/

@@ -2,6 +2,19 @@
   "brokenTestObjects": [
     {
       "approved": true,
+<<<<<<< Updated upstream
+=======
+      "testObjectId": "Object Repository/Page_Dashboard/i_Parameters_icon fa fa-power-off fa-2x",
+      "brokenLocator": "//div[@id\u003d\u0027b2-$b9\u0027]/div/div/a/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/div/div/div/a/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/i_Parameters_icon fa fa-power-off fa-2x_position.png"
+    },
+    {
+      "approved": true,
+>>>>>>> Stashed changes
       "testObjectId": "Object Repository/Page_Dashboard/button_Logout",
       "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[6]",
       "brokenLocatorMethod": "XPATH",
@@ -9,6 +22,7 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Dashboard/button_Logout_neighbor.png"
+<<<<<<< Updated upstream
     },
     {
       "approved": true,
@@ -139,6 +153,8 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/User Management/Page_Dashboard/span_User Management_idRelative.png"
+=======
+>>>>>>> Stashed changes
     }
   ]
 }

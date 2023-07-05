@@ -17,3 +17,90 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_DasHboaRd/div_Stockholder Information_osui-submenu__h_be17fb'))
+
+WebUI.mouseOver(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_DasHboaRd/div_Create New Stockholder'))
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_DasHboaRd/span_Stockholder list'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Existing StockholdersNewly_53209e'), 
+    '0', true)
+
+WebUI.delay(5)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '3', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--Individual ShareholderCorp_3d3b64'), 
+    '0', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '-1', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+    '-1', true)
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/button_Stocks History'))
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_Stockdetails/div_Stockholder Information_osui-submenu__h_be17fb'))
+
+WebUI.mouseOver(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_Stockdetails/div_Create New Stockholder_submenu-2-icon'))
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_Stockdetails/span_Stockholder list'))
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_StockholderList/button_Adding of Shares'))
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_ManageAccount/input_Select Adding of Share Type_RadioGroup1'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_ManageAccount/select_--SELECT--Common Share StockPreferre_ef6566'), 
+    '1', true)
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Stockholder_list/Page_ManageAccount/input_Number Of Shares_Input_NumberOfShares'), 
+    '25')
+
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+

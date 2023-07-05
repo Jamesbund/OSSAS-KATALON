@@ -98,3 +98,5 @@ WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_Stoc
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Next'))
 
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+

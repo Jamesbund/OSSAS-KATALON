@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Add New</name>
+   <name>Branch_Information</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ef80db1e-fcc0-408d-948f-30e0529092a4</testCaseGuid>

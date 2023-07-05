@@ -19,8 +19,8 @@ import org.openqa.selenium.Keys as Keys
 //
 import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
-
 //
+
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
@@ -98,5 +98,5 @@ WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_Stoc
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Next'))
 
-WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

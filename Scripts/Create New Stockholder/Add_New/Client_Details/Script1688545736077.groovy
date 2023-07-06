@@ -66,3 +66,5 @@ WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/
 
 WebUI.click(findTestObject('Object Repository/Page_StockholderEnrollment/button_Next'))
 
+WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Client_Details/Page_StockholderEnrollment/button_Yes Accept Override'))
+

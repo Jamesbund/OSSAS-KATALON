@@ -40,14 +40,21 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d30479d1-dbf6-4cfa-aa8e-bd4ae694fb53</guid>
+      <guid>684aec36-be7c-4ce9-a04e-ac574b34151d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create New Stockholder/Add_New/Immediate_Family</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9977dcea-2126-4bba-b636-e3c7c6c46319</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create New Stockholder/Add_New/Stockholder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3078b059-d335-4e75-9a78-a98e88a1b5d3</guid>
+      <guid>78ecae7a-fea2-44fa-ac45-2b4504cd379f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login, Dashboard, and Logout/Logout</testCaseId>

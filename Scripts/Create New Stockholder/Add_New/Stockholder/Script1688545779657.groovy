@@ -17,19 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 //
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
+import java.time.LocalDate as LocalDate
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 //
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_ImmediateContact Person_Immediate_Con_5c3087'), 
-    'Megatron Griffin')
-
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_land Islands_ImmediateContactNumberS'), 
-    '9091000000')
-
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_Immediate Address_ImmediateContactNumber2'), 
-    'Sample Immediate Address 01')
-
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_Account Number_FinalstepAccountNumber'), 
     '1000011')
 
@@ -57,6 +48,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockhold
     '0', true)
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/span_Preview'))
+
+WebUI.delay(6)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/span_CARD Bank, Inc'), 
     'CARD Bank, Inc.')

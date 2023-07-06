@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username_Input_UsernameVal'), 'James Aldrine')
+WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username_Input_UsernameVal'), GlobalVariable.Username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_Input_PasswordVal'), 'MHSUC33hkPnBWRnjFBNCPA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login/input_Password_Input_PasswordVal'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_Login/i_Password_icon fa fa-eye-slash fa-2x'))
 
@@ -34,3 +34,4 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/Page_Login/i_Password_icon fa fa-eye fa-2x'))
 
 WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
+

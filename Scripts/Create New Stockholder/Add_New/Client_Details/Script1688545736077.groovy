@@ -19,10 +19,8 @@ import org.openqa.selenium.Keys as Keys
 //
 import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
+
 //
-
-WebUI.callTestCase(findTestCase('Create New Stockholder/Add_New/Branch_Information'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--Dr.Mrs.Mr.Atty.Hon.Ms.Engr.Rev'), 
     '2', true)
 
@@ -67,10 +65,4 @@ WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/
     pastDate)
 
 WebUI.click(findTestObject('Object Repository/Page_StockholderEnrollment/button_Next'))
-
-WebUI.callTestCase(findTestCase('Create New Stockholder/Add_New/Address'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Create New Stockholder/Add_New/Stockholder'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

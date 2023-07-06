@@ -19,25 +19,8 @@ import org.openqa.selenium.Keys as Keys
 //
 import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
+
 //
-
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
-
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_Login/input_Username_Input_UsernameVal'), 'James Aldrine')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Create New Stockholder/Page_Login/input_Password_Input_PasswordVal'), 
-    'MHSUC33hkPnBWRnjFBNCPA==')
-
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_Login/i_Password_icon fa fa-eye-slash fa-2x'))
-
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_Login/button_Login'))
-
-WebUI.delay(3)
-
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_DasHboaRd/div_Stockholder Information_osui-submenu__h_be17fb'))
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_DasHboaRd/span_Create New Stockholder'))

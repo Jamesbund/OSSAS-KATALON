@@ -17,3 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_land Islands_Input_MN'), 
+    '9090000200')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_Place of Birth_InputDOB'), 
+    'Sample Place of Birth 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_Email Address_InputAddress'), 
+    'Smokeynagata@sample.com')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_House Number_InputHN'), 
+    '1002')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/select_PresentPermanent'), 
+    '0', true)
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_Street_InputStreet'), 
+    'Sample Street 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_Barangay_InputBrangay'), 
+    'Sample Barangay 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_City_InputCity'), 
+    'Sample City 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_ZipCode_InputZipcode'), 
+    '4123')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/input_Province_InputProvince'), 
+    'Sample Province 01')
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/Page_StockholderEnrollment/span_Next'))
+

@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_ImmediateContact Person_Immediate_Con_5c3087'),
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_ImmediateContact Person_Immediate_Con_5c3087'),
 	'Megatron Griffin')
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_land Islands_ImmediateContactNumberS'),
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_land Islands_ImmediateContactNumberS'),
 	'9091000000')
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_Immediate Address_ImmediateContactNumber2'),
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Immediate Address_ImmediateContactNumber2'),
 	'Sample Immediate Address 01')
 
 WebUI.click(findTestObject('Object Repository/Page_StockholderEnrollment/button_Next'))

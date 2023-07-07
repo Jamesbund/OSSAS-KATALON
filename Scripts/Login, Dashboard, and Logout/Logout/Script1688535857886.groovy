@@ -20,3 +20,8 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_Parameters_icon fa fa-power-off fa-2x'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dashboard/button_Logout'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

@@ -21,7 +21,7 @@ import java.time.LocalDate as LocalDate
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 //
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_Account Number_FinalstepAccountNumber'), 
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Account Number_FinalstepAccountNumber'), 
     '1000011')
 
 // Get the current date
@@ -36,23 +36,23 @@ println('The current date is: ' + currentDateFormatted)
 
 //
 // Input the current date into the text box
-WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_Stock Date Acquisition_stockdate'), 
+WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Stock Date Acquisition_stockdate'), 
     currentDateFormatted)
 
-WebUI.mouseOver(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/input_Stock Date Acquisition_stockdate'))
+WebUI.mouseOver(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Stock Date Acquisition_stockdate'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/select_--Select--ResignedActiveInactiveOthers'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/select_--Select--ResignedActiveInactiveOthers'), 
     '1', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/select_--Select--ContactPersonLandLineMobile'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/select_--Select--ContactPersonLandLineMobile'), 
     '0', true)
 
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/span_Preview'))
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/span_Preview'))
 
 WebUI.delay(6)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/span_CARD Bank, Inc'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/span_CARD Bank, Inc'), 
     'CARD Bank, Inc.')
 
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/Page_StockholderEnrollment/span_Close'))
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/span_Close'))
 

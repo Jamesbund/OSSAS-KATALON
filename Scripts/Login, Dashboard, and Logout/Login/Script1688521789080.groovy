@@ -17,11 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+<<<<<<< Updated upstream:Scripts/Login, Dashboard, and Logout/Login/Script1688521789080.groovy
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
+=======
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_ImmediateContact Person_Immediate_Con_5c3087'),
+	'Megatron Griffin')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_land Islands_ImmediateContactNumberS'),
+	'9091000000')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Immediate Address_ImmediateContactNumber2'),
+	'Sample Immediate Address 01')
+>>>>>>> Stashed changes:Scripts/Create New Stockholder/Add_New/Immediate_Family/Script1688629793085.groovy
 
 WebUI.setText(findTestObject('Object Repository/Page_Login/input_Username_Input_UsernameVal'), 'James Aldrine')
 

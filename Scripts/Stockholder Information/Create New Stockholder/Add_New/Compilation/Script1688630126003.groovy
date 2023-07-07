@@ -17,11 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_Parameters_icon fa fa-power-off fa-2x'))
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SAS Login and Logout/Page_Dashboard/button_Logout'))
+WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Branch_Information'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Client_Details'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Address'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Immediate_Family'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Stockholder'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

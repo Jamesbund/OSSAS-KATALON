@@ -17,11 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard/i_Parameters_icon fa fa-power-off fa-2x'))
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SAS Login and Logout/Page_Dashboard/button_Logout'))
+WebUI.click(findTestObject('Object Repository/Stock Inquiries 360/Page_DasHboaRd/div_Stockholder Information_osui-submenu__h_be17fb'))
+
+WebUI.click(findTestObject('Object Repository/Stock Inquiries 360/Page_DasHboaRd/span_Stockholder Inquiries 360'))
+
+WebUI.setText(findTestObject('Object Repository/Stock Inquiries 360/Page_Inquiries Customer Details 360/input_Search_Input_TextVar'), 
+    '192168222')
+
+WebUI.click(findTestObject('Object Repository/Stock Inquiries 360/Page_Inquiries Customer Details 360/button_Submit'))
 
 WebUI.delay(5)
 
-WebUI.closeBrowser()
+WebUI.scrollToElement(findTestObject('Object Repository/Stock Inquiries 360/Page_Inquiries Customer Details 360/span_192168222'), 
+    0)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Object Repository/Stock Inquiries 360/Page_Inquiries Customer Details 360/i_Total Amount_icon fa fa-chevron-circle-do_7ca990'))
+
+WebUI.scrollToElement(findTestObject('Stock Inquiries 360/Page_Inquiries Customer Details 360/button_Submit'), 0)
+
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -22,35 +22,35 @@
       <guid>6c003bc6-f0f0-41ed-9622-fde3f1e581da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New Stockholder/Add_New/Branch_Information</testCaseId>
+      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Branch_Information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>587580cd-550b-4331-90fc-5ee5197da166</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New Stockholder/Add_New/Client_Details</testCaseId>
+      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Client_Details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1137959d-76b4-41ff-88a3-f2db448f3ff1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New Stockholder/Add_New/Address</testCaseId>
+      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>684aec36-be7c-4ce9-a04e-ac574b34151d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New Stockholder/Add_New/Immediate_Family</testCaseId>
+      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Immediate_Family</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9977dcea-2126-4bba-b636-e3c7c6c46319</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create New Stockholder/Add_New/Stockholder</testCaseId>
+      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Stockholder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

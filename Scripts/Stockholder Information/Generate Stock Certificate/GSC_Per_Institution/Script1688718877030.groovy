@@ -73,7 +73,9 @@ WebUI.mouseOver(findTestObject('Object Repository/Generate Stockholder Certifica
 
 WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/span_Generate'))
 
-WebUI.scrollToPosition(0, 500)
+WebUI.delay(3)
+
+WebUI.scrollToPosition(5000, 11000)
 
 WebUI.delay(5)
 

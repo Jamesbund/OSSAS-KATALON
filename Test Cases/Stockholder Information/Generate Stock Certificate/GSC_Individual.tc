@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Generate_Stock_Certificate</name>
+   <name>GSC_Individual</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e5e10dec-5980-4cb3-af75-b3a6a5409a40</testCaseGuid>
+   <testCaseGuid>3b522e80-7f6d-4ebb-a7f4-8bddbe495444</testCaseGuid>
 </TestCaseEntity>

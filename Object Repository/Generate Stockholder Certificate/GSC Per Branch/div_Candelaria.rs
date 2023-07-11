@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Select</name>
+   <name>div_Candelaria</name>
    <tag></tag>
-   <elementGuidId>5bf1942e-6e18-4e1a-88ee-4419fe8326af</elementGuidId>
+   <elementGuidId>1fc21458-6e91-4a55-b429-e259e6878893</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.vscomp-toggle-button</value>
+         <key>XPATH</key>
+         <value>//div[@id='vscomp-ele-wrapper-1666']/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='vscomp-ele-wrapper-9542']/div</value>
+         <key>CSS</key>
+         <value>#vscomp-ele-wrapper-1666 > div.vscomp-toggle-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d46345a3-d498-4839-ae69-4580ffdff3b5</webElementGuid>
+      <webElementGuid>cce76518-3a10-48c6-bb1a-8519f0c6fe08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>vscomp-toggle-button</value>
-      <webElementGuid>23f55e2c-755f-4037-9a02-cc9ca995387f</webElementGuid>
+      <webElementGuid>edb63f37-2d0a-4f5d-b40e-a8500eba2d40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,8 +39,11 @@
       <type>Main</type>
       <value>
           
-            Select...
-          
+              Candelaria
+              
+                
+              
+            
 
           
 
@@ -48,39 +51,39 @@
             
           
         </value>
-      <webElementGuid>25544496-6213-4065-94c3-3086f0228964</webElementGuid>
+      <webElementGuid>17169505-f6e7-47a7-bb47-ebd0dc8a7551</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vscomp-ele-wrapper-9542&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]</value>
-      <webElementGuid>2612a940-124c-4044-8150-94c6a701936e</webElementGuid>
+      <value>id(&quot;vscomp-ele-wrapper-1666&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]</value>
+      <webElementGuid>3d7db0ae-7422-423f-b568-cf08c12ebc80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vscomp-ele-wrapper-9542']/div</value>
-      <webElementGuid>1dc87cdd-d528-4726-8aee-2c4c5b5dec40</webElementGuid>
+      <value>//div[@id='vscomp-ele-wrapper-1666']/div</value>
+      <webElementGuid>e3bbe52c-426b-4dbb-9a34-d435cde783bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::div[10]</value>
-      <webElementGuid>7ed1c341-21ee-4ae3-b24f-8d3e8486363d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CARD Bank, Inc.'])[1]/following::div[7]</value>
+      <webElementGuid>0125c899-b451-49ff-a66a-12fb8d55d135</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Institution'])[1]/following::div[11]</value>
-      <webElementGuid>8d8254a0-4594-418d-a324-be7bd847da37</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::div[18]</value>
+      <webElementGuid>677c6bc8-8320-457c-a785-b25fde09c9c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,15 +91,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date:'])[1]/preceding::div[4]</value>
-      <webElementGuid>b67cf0e0-df3a-42b1-ba5e-b7d9b053ea2a</webElementGuid>
+      <webElementGuid>1c1422a6-29b6-4700-a08a-abfb6e03d408</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div/div/div/div/div/div</value>
-      <webElementGuid>e1429a36-cd2e-4ed9-917d-b8b6f871f88c</webElementGuid>
+      <value>//div[3]/div/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>4c3f249c-d890-44f0-b320-2fc459498e8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,8 +108,11 @@
       <type>Main</type>
       <value>//div[(text() = '
           
-            Select...
-          
+              Candelaria
+              
+                
+              
+            
 
           
 
@@ -115,8 +121,11 @@
           
         ' or . = '
           
-            Select...
-          
+              Candelaria
+              
+                
+              
+            
 
           
 
@@ -124,6 +133,6 @@
             
           
         ')]</value>
-      <webElementGuid>407c9cab-098a-4b87-8aae-d766c16a7f6b</webElementGuid>
+      <webElementGuid>07597ee0-a9b9-405e-bfca-7e1eb05af204</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,12 +29,12 @@ WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/P
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/select_--Select Type--Per InstitutionPer Br_196992'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Generate Stockholder Certificate/GSC Per Institution/select_--Select Type--Per InstitutionPer Br_196992'), 
     '0', true)
 
-WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/div_Select'))
+WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/GSC Per Institution/div_Select'))
 
-WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/span_CARD Bank, Inc'))
+WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/GSC Per Institution/span_CARD Bank, Inc'))
 
 // Get the current date
 LocalDate currentDate1 = LocalDate.now()
@@ -51,9 +51,9 @@ String pastDateFormatted = pastDate.format(dateFormat1)
 println('The past date is: ' + pastDateFormatted)
 
 // Set the date output on thd field
-WebUI.setText(findTestObject('Generate Stockholder Certificate/Page_UserlistReports/input_End Date_Input_DateStart'), pastDateFormatted)
+WebUI.setText(findTestObject('Generate Stockholder Certificate/GSC Per Institution/input_End Date_Input_DateStart'), pastDateFormatted)
 
-WebUI.mouseOver(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/input_End Date_Input_DateStart'))
+WebUI.mouseOver(findTestObject('Object Repository/Generate Stockholder Certificate/GSC Per Institution/input_End Date_Input_DateStart'))
 
 // Get the current date
 LocalDate currentDate = LocalDate.now()
@@ -67,17 +67,25 @@ println('The current date is: ' + currentDateFormatted)
 
 //
 // Input the current date into the text box
-WebUI.setText(findTestObject('Generate Stockholder Certificate/Page_UserlistReports/input_End Date_Input_DateEnd'), currentDateFormatted)
+WebUI.setText(findTestObject('Generate Stockholder Certificate/GSC Per Institution/input_End Date_Input_DateEnd'), currentDateFormatted)
 
-WebUI.mouseOver(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/input_End Date_Input_DateEnd'))
+WebUI.mouseOver(findTestObject('Object Repository/Generate Stockholder Certificate/GSC Per Institution/input_End Date_Input_DateEnd'))
 
-WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/Page_UserlistReports/span_Generate'))
+WebUI.click(findTestObject('Object Repository/Generate Stockholder Certificate/GSC Per Institution/span_Generate'))
 
 WebUI.delay(3)
 
-WebUI.scrollToPosition(5000, 11000)
+for (def D : (1..30)) {
+    WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_DOWN))
+}
 
-WebUI.delay(5)
+WebUI.delay(3)
+
+for (def U : (1..30)) {
+    WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.PAGE_UP))
+}
+
+WebUI.delay(4)
 
 WebUI.closeWindowIndex(1)
 

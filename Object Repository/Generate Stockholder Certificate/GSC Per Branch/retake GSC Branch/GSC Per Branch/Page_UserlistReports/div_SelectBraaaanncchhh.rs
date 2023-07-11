@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_CARD Bank, Inc</name>
+   <name>div_SelectBraaaanncchhh</name>
    <tag></tag>
-   <elementGuidId>726d898e-93d2-41eb-ae9c-77ea8dfa380c</elementGuidId>
+   <elementGuidId>ccc8f861-359f-4c4e-a4b2-6d791fc7ddca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.vscomp-option-text</value>
+         <key>XPATH</key>
+         <value>//div[@id='vscomp-ele-wrapper-2538']/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='vscomp-option-9542-0']/span[2]</value>
+         <key>CSS</key>
+         <value>#vscomp-ele-wrapper-2538 > div.vscomp-toggle-button > div.vscomp-value</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,24 +21,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>abaa0118-2a4e-4c12-b5cd-3f3698d3e7fd</webElementGuid>
+      <value>div</value>
+      <webElementGuid>644be716-fa32-4b5a-98a6-3a7f406498d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>vscomp-option-text</value>
-      <webElementGuid>2dd89cdf-27b4-43b3-9748-829dc4108eda</webElementGuid>
+      <value>vscomp-value</value>
+      <webElementGuid>18e86fe3-75e5-49d6-b904-2d1a8c61636d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-tooltip</name>
       <type>Main</type>
-      <value>CARD Bank, Inc.</value>
-      <webElementGuid>32d5fe10-d9e5-4788-a7bb-22938e6f95d8</webElementGuid>
+      <value>Select...</value>
+      <webElementGuid>1f80fc2d-2e78-410f-8296-45e12f0ce923</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-tooltip-enter-delay</name>
       <type>Main</type>
       <value>200</value>
-      <webElementGuid>9d7fdb3c-0ac6-4087-bcc3-c060c25cd679</webElementGuid>
+      <webElementGuid>6972250e-565e-442a-98ac-cdadc497a425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-tooltip-z-index</name>
       <type>Main</type>
       <value>251</value>
-      <webElementGuid>8d71de7a-ae8c-4fa7-a34b-271d53588e57</webElementGuid>
+      <webElementGuid>6a9b1433-bb81-4788-bfc1-9e02821d7745</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-tooltip-font-size</name>
       <type>Main</type>
       <value>14px</value>
-      <webElementGuid>b89397bf-262b-4762-99a6-912e6e808490</webElementGuid>
+      <webElementGuid>9d6643a7-780d-4487-9ee0-3a48179d4253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>data-tooltip-alignment</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>c17439f5-688b-46cd-91f1-1dfe5eff4f73</webElementGuid>
+      <webElementGuid>bfe9b5cd-8322-4ffb-8def-85c869be0cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>data-tooltip-max-width</name>
       <type>Main</type>
       <value>300px</value>
-      <webElementGuid>b820b8e5-fc70-4830-9178-dcd8a87365e5</webElementGuid>
+      <webElementGuid>8a29c744-39e2-4ab3-94ab-b3c0f6d36c2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>data-tooltip-ellipsis-only</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c63384a0-50f9-4201-af83-f3b5e34d2b2d</webElementGuid>
+      <webElementGuid>4071a3e0-7cdc-49eb-98f5-689cbcfceac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>data-tooltip-allow-html</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d0a2fec4-2434-4ce5-837d-5ae7612174c0</webElementGuid>
+      <webElementGuid>54f24dfb-add1-4627-9dfc-1d8edd21b8aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -102,76 +102,84 @@
       <name>text</name>
       <type>Main</type>
       <value>
-            CARD Bank, Inc.
+            Select...
           </value>
-      <webElementGuid>dfbb9065-b423-4ce5-90ec-d783cc187bb1</webElementGuid>
+      <webElementGuid>e2de7769-1bcc-45ad-8d53-96073339d342</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vscomp-option-9542-0&quot;)/span[@class=&quot;vscomp-option-text&quot;]</value>
-      <webElementGuid>7422e683-db9a-4b06-97a3-8363ae2b71f6</webElementGuid>
+      <value>id(&quot;vscomp-ele-wrapper-2538&quot;)/div[@class=&quot;vscomp-toggle-button&quot;]/div[@class=&quot;vscomp-value&quot;]</value>
+      <webElementGuid>6aedbfcc-33e8-4586-a06a-ba99033d340b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vscomp-option-9542-0']/span[2]</value>
-      <webElementGuid>71efa3b9-fab4-4297-aa8f-d68c6e0512ae</webElementGuid>
+      <value>//div[@id='vscomp-ele-wrapper-2538']/div/div</value>
+      <webElementGuid>40e96f2a-b395-407d-8323-be5a4495cc64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::span[2]</value>
-      <webElementGuid>739f2482-1ce8-4a59-83f3-42b7ceddbf1f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CARD SME Bank Inc.'])[1]/following::div[8]</value>
+      <webElementGuid>6de146f2-bd58-48ad-a22e-19064d81f058</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select All'])[1]/following::span[3]</value>
-      <webElementGuid>4a52ff7d-93f4-4def-868f-f5c9032add97</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::div[19]</value>
+      <webElementGuid>de6d41b9-b47b-403c-a1a4-b7c184ab1e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CARD SME Bank Inc.'])[1]/preceding::span[2]</value>
-      <webElementGuid>56bca48a-38e8-4a87-a010-56a306715ea1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date:'])[1]/preceding::div[3]</value>
+      <webElementGuid>a728198c-c22d-44f4-93fa-4760e87e14ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CARD MRI Rizal Bank Inc.'])[1]/preceding::span[4]</value>
-      <webElementGuid>16bada24-56ce-4f21-a8a2-ca4077673ddd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date:'])[1]/preceding::div[4]</value>
+      <webElementGuid>d5e8ca45-4761-4a13-bad3-203721638afd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select...']/parent::*</value>
+      <webElementGuid>7aab96cf-5054-4b6d-9ccb-8f9995a83d43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/span[2]</value>
-      <webElementGuid>dcad81ac-7cda-46ff-9d09-6ef875b946eb</webElementGuid>
+      <value>//div[3]/div/div/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>c0482a29-382e-47d9-9f29-2ddd99c4de22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = '
-            CARD Bank, Inc.
+      <value>//div[(text() = '
+            Select...
           ' or . = '
-            CARD Bank, Inc.
+            Select...
           ')]</value>
-      <webElementGuid>636fc26c-f5f4-45b0-bbe7-019dc8779734</webElementGuid>
+      <webElementGuid>7fe90f38-fe08-49da-8f9e-0d8194e2d347</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

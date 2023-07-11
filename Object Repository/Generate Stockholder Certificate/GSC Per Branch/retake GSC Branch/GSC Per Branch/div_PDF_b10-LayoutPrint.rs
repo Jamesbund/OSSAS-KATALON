@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_--Select Type--Per InstitutionPer Br_196992</name>
+   <name>div_PDF_b10-LayoutPrint</name>
    <tag></tag>
-   <elementGuidId>01f4d422-a35b-4427-8f00-293303a3714b</elementGuidId>
+   <elementGuidId>f6db9f5c-e789-4903-bdde-268e4567aa01</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Dropdown1</value>
+         <key>XPATH</key>
+         <value>//div[@id='b10-LayoutPrint']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='Dropdown1']</value>
+         <key>CSS</key>
+         <value>#b10-LayoutPrint</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-      <webElementGuid>d5e2f928-e5fe-4bdd-a7ac-c290e8db387f</webElementGuid>
+      <value>div</value>
+      <webElementGuid>ac76a5b4-2dd8-4e7b-b947-69234f864200</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>dropdown-display dropdown</value>
-      <webElementGuid>540eb426-a817-4b09-824d-8b17e742a03a</webElementGuid>
+      <value>layout-print</value>
+      <webElementGuid>60a20b70-d13c-4438-9557-106eb4ca5518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-disabled</name>
+      <name>data-layout-print-hide-first-header</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>843ea73b-2398-46f0-8c7e-39327d25db62</webElementGuid>
+      <webElementGuid>a958f9c7-bfc5-4b3d-bcf3-a8dafb596eee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-layout-print-hide-last-footer</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d877e2f1-ca0d-446f-a9ea-aacbfe17e285</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Dropdown1</value>
-      <webElementGuid>f7724b25-1ee7-4a32-9e80-0aaa63b27ed5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>--Select Type--Per InstitutionPer BranchIndividual</value>
-      <webElementGuid>c511aa61-0d65-45ad-a963-61fa6d25a6e5</webElementGuid>
+      <value>b10-LayoutPrint</value>
+      <webElementGuid>73995ef0-284b-4f2d-b35d-30db38d1e118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Dropdown1&quot;)</value>
-      <webElementGuid>776d236e-e21d-4e89-b185-4c869a1b301c</webElementGuid>
+      <value>id(&quot;b10-LayoutPrint&quot;)</value>
+      <webElementGuid>06ef3973-5268-42ed-97e9-14eedc626775</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='Dropdown1']</value>
-      <webElementGuid>71c51a2c-73bd-4ff5-badb-dbe45e9f50f0</webElementGuid>
+      <value>//div[@id='b10-LayoutPrint']</value>
+      <webElementGuid>fd01ec24-8b62-4a26-9ff0-e487675f99e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='Dropdown1-container']/select</value>
-      <webElementGuid>1b3ecb2f-66a7-4222-9b73-a01540320bd8</webElementGuid>
+      <value>//div[@id='$b10']/div</value>
+      <webElementGuid>40b0beb3-bc5a-459e-a132-8334f7787d19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Institution'])[1]/preceding::select[1]</value>
-      <webElementGuid>f63a56b8-8c59-4ef9-80ec-faa9dbdc37e1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDF'])[1]/following::div[7]</value>
+      <webElementGuid>98096ef4-d45d-462c-982c-d13a819a74bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/preceding::select[1]</value>
-      <webElementGuid>8191f5cc-780e-4941-bd30-811de5b4008a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'b10-LayoutPrint', '&quot;', ')')])[1]/preceding::div[7]</value>
+      <webElementGuid>c1587333-1697-4ee8-946c-07f0f053eb40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select All'])[1]/preceding::div[9]</value>
+      <webElementGuid>63699ed0-1c46-4142-9ca1-e783ca5112bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//select</value>
-      <webElementGuid>89c6a3fe-76fa-4b7d-8711-40ee109ee691</webElementGuid>
+      <value>//div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>b433de1e-bc8e-4b07-b808-445a6a6734d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'Dropdown1' and (text() = '--Select Type--Per InstitutionPer BranchIndividual' or . = '--Select Type--Per InstitutionPer BranchIndividual')]</value>
-      <webElementGuid>becb80c2-97b6-49cd-ae14-38ce0eb7234e</webElementGuid>
+      <value>//div[@id = 'b10-LayoutPrint']</value>
+      <webElementGuid>9fa99248-97c3-472a-95f3-e56b716e3a5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

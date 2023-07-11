@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span__checkbox-icon</name>
+   <name>span__checkbox-icon_1</name>
    <tag></tag>
-   <elementGuidId>0388f23a-824a-4728-bd7d-7bc86eb76569</elementGuidId>
+   <elementGuidId>cf8ee6f4-d892-4ad1-af1e-0ef802e255b1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#vscomp-option-9542-0 > span.checkbox-icon</value>
+         <key>XPATH</key>
+         <value>//div[@id='vscomp-option-1666-13']/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='vscomp-option-9542-0']/span</value>
+         <key>CSS</key>
+         <value>#vscomp-option-1666-13 > span.checkbox-icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>48fcfb7c-f919-4ab3-888b-0d413123c32f</webElementGuid>
+      <webElementGuid>a7ec4dc0-f394-4642-818e-84b25582d00d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,30 +30,30 @@
       <name>class</name>
       <type>Main</type>
       <value>checkbox-icon</value>
-      <webElementGuid>378016cc-cc57-4cc6-91bd-27c5b21e895a</webElementGuid>
+      <webElementGuid>7e182c66-e4f9-41c7-895d-aedb5e1bb3c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vscomp-option-9542-0&quot;)/span[@class=&quot;checkbox-icon&quot;]</value>
-      <webElementGuid>6565b4f7-0635-45a8-9405-5fece2f10168</webElementGuid>
+      <value>id(&quot;vscomp-option-1666-13&quot;)/span[@class=&quot;checkbox-icon&quot;]</value>
+      <webElementGuid>25067513-c061-4e8e-af20-18e80a8a8e1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vscomp-option-9542-0']/span</value>
-      <webElementGuid>da71247c-127c-46e0-b74f-ff16f0280e7d</webElementGuid>
+      <value>//div[@id='vscomp-option-1666-13']/span</value>
+      <webElementGuid>4398385f-14e8-46da-95f3-f818c5724944</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/span</value>
-      <webElementGuid>580a8417-3c57-45b6-902b-9f6119378570</webElementGuid>
+      <value>//div[4]/div/div/div[2]/div[2]/div/div/span</value>
+      <webElementGuid>e632125b-32c8-4fed-a0c1-ebe279cc735f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>aabec848-c8ee-4e84-938f-6a48a4bb8d30</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img.OSFillParent</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='l2-40_0-b11-l1-57_0-PrintCertificate']/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.OSFillParent</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

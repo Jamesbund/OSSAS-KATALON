@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_End Date_Input_DateStart</name>
+   <name>input_Select All_vscomp-search-input</name>
    <tag></tag>
-   <elementGuidId>3e9004d6-ace9-4ceb-a57d-cefb6d9e8c6f</elementGuidId>
+   <elementGuidId>4234b2c2-0c56-4009-96ac-ae77fdf041d8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Input_DateStart</value>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Input_DateStart']</value>
+         <key>CSS</key>
+         <value>#vscomp-dropbox-container-1666 > div.vscomp-dropbox > div.vscomp-search-wrapper > div.vscomp-search-container > input.vscomp-search-input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0c144935-b6d4-4ed8-b4e8-8701d5098ccd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control OSFillParent</value>
-      <webElementGuid>4f35dc9b-4993-42f2-b8dc-e4dab935923f</webElementGuid>
+      <webElementGuid>207d32be-071a-4ebe-ab60-d5b8065c2b21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>date</value>
-      <webElementGuid>fb0f2b75-57a7-489b-b91d-83cec8d1aafa</webElementGuid>
+      <value>text</value>
+      <webElementGuid>d2872fa2-d2e1-42a4-ad65-9e400efb3411</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vscomp-search-input</value>
+      <webElementGuid>2aa0e992-5d16-4435-9b26-127214bd98f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Select Date</value>
-      <webElementGuid>c13870b4-8c97-4dec-8e06-b831c1f90aeb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>Input_DateStart</value>
-      <webElementGuid>06766fc9-146e-47d7-823b-5293b4abb56f</webElementGuid>
+      <value>Search...</value>
+      <webElementGuid>8bc167a9-b3e2-4422-810e-a82b4d623833</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Input_DateStart&quot;)</value>
-      <webElementGuid>361a9a75-4c9b-42b7-ab51-438d7b9ec3c5</webElementGuid>
+      <value>id(&quot;vscomp-dropbox-container-1666&quot;)/div[@class=&quot;vscomp-dropbox&quot;]/div[@class=&quot;vscomp-search-wrapper&quot;]/div[@class=&quot;vscomp-search-container&quot;]/input[@class=&quot;vscomp-search-input&quot;]</value>
+      <webElementGuid>8b8c3923-5402-4265-bfd1-f1a307859f67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Input_DateStart']</value>
-      <webElementGuid>6385ac7e-9801-41eb-8333-dd95881652bf</webElementGuid>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>5d4df74e-76b6-41d9-8eeb-f25ec446e51c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b8-Column1']/div/div/span/input</value>
-      <webElementGuid>32757a29-23d7-4abf-af8b-e2a16a9bf48b</webElementGuid>
+      <value>//div[@id='vscomp-dropbox-container-1666']/div/div/div/input</value>
+      <webElementGuid>ab8b4dbe-20e3-49bc-9614-17d7ca0fb7e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>a0656926-e2c7-49ac-9ec7-99000aa60bc0</webElementGuid>
+      <value>//div[4]/div/div/div/div/input</value>
+      <webElementGuid>3d439487-cc1e-4244-b1c3-9da6e093abe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'date' and @placeholder = 'Select Date' and @id = 'Input_DateStart']</value>
-      <webElementGuid>a970a0b3-a564-43c5-90c5-3279ff882c46</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'Search...']</value>
+      <webElementGuid>83a5cbe6-d073-481c-bc70-400587d3084e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

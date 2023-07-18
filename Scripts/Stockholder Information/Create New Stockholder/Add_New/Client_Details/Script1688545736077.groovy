@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
+import java.util.Random
 //
 import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
@@ -27,7 +29,57 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnro
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--FemaleMale'), '1', 
     true)
 
-WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_First Name_Input_FirstName'), 'Smokey')
+// List of predefined names
+List<String> namesList = [
+	"John",
+	"Jake",
+	"Michael",
+	"Peter",
+	"James",
+	"Arthur",
+	"William",
+	"Manly",
+	"Robert",
+	"Emman",
+	"David",
+	"Devon",
+	"Akira",
+	"Sendou",
+	"Kenchou",
+	"Douglas",
+	"Jeremy",
+	"Bogart",
+	"Smokey",
+	"Vince",
+	// Add more names as needed
+]
+
+// Define the number of random names to generate
+int numberOfRandomNames = 20
+
+// Create a Random object
+Random random = new Random()
+
+// Initialize a list to store the random names
+List<String> randomNamesList = new ArrayList<String>()
+
+// Generate random names and add them to the list
+for (int i = 0; i < numberOfRandomNames; i++) {
+	int randomIndex = random.nextInt(namesList.size())
+	String randomName = namesList[randomIndex]
+	randomNamesList.add(randomName)
+}
+
+// Output the list of random names
+println "Random Names: " + randomNamesList
+
+// Store the generated random names in variables
+String randomName1 = randomNamesList[0]
+String randomName2 = randomNamesList[1]
+// ... Repeat for other names as needed
+
+// You can now use these variables in your subsequent test steps, for example:
+WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_First Name_Input_FirstName'), randomName1)
 
 WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Middle Name_Input_FirstName2'), 'M')
 

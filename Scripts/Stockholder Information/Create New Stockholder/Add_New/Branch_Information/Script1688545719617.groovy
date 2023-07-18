@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.util.Random as Random
 //
 import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
@@ -80,8 +81,12 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockhold
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--MemberNonMemberStaff'), 
     '0', true)
 
+Random snum1 = new Random()
+
+int randomNumber1 = snum1.nextInt(999999999)
+
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), 
-    '192168999')
+    randomNumber1.toString())
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Next'))
 

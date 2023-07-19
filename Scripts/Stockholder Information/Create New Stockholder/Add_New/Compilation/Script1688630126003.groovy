@@ -21,9 +21,7 @@ WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Login'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Branch_Information'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Client_Details'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Address'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Client_Details-Address'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Stockholder Information/Create New Stockholder/Add_New/Immediate_Family'), [:], FailureHandling.STOP_ON_FAILURE)
 

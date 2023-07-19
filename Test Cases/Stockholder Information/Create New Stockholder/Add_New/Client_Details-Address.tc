@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Client Details And Address</description>
+   <name>Client_Details-Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e02ee0e4-d7f8-4523-b62c-622b860d68cf</testCaseGuid>
+</TestCaseEntity>

@@ -23,11 +23,11 @@ import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
 
 //
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--Dr.Mrs.Mr.Atty.Hon.Ms.Engr.Rev'), 
-    '2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--Dr.Mrs.Mr.Atty.Hon.Ms.Engr.Rev'),
+	'2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--FemaleMale'), '1', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--FemaleMale'), '1',
+	true)
 
 ///////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// List of predefined names
@@ -38,7 +38,7 @@ List<String> namesList = ['John', 'Jake', 'Michael', 'Jobert', 'James', 'Bogart'
 List<String> MInamesList = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N'
 	, 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
 	
-]	
+]
 
 // List of predefined surnames
 List<String> surnamesList = ['Smith', 'Johnson', 'Brown', 'Davis', 'Miller', 'Wilson', 'Anderson', 'Taylor', 'Thomas', 'Jackson'
@@ -99,7 +99,7 @@ String generateEmailAddress(String name, String surname) {
 	surname = surname.toLowerCase()
 
 	// Generate the email address
-	String emailAddress = name + "." + surname + "@example.com"
+	String emailAddress = name + "." + surname + "@sample.com"
 	return emailAddress
 }
 
@@ -118,17 +118,15 @@ WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input
 
 //WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Last Name_Input_FirstName3'), 'Nagata')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--IVSr.Jr.IIII'), 
-    '4', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--IVSr.Jr.IIII'),
+	'4', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Mothers Maiden Name_Input_FirstName4'), randomEmailAddressesList[0]
-	)
 
-//////WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Mothers Maiden Name_Input_FirstName4'), 
-    //'Smokey\'s Mother')
+WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Mothers Maiden Name_Input_FirstName4'),
+	'Smokey\'s Mother')
 
-WebUI.selectOptionByValue(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Client_Details/select_--Select--Widower'), 
-    '5', false)
+WebUI.selectOptionByValue(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Client_Details/select_--Select--Widower'),
+	'5', false)
 
 WebUI.mouseOver(findTestObject('Object Repository/Page_StockholderEnrollment/input_Date of Birth_DateOfbirths'))
 
@@ -149,10 +147,51 @@ println('Past Date is: ' + pastDate)
 
 ////
 // Input the current date into the text box
-WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Client_Details/input_Date of Birth_DateOfbirths'), 
-    pastDate)
+WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Client_Details/input_Date of Birth_DateOfbirths'),
+	pastDate)
 
 WebUI.click(findTestObject('Object Repository/Page_StockholderEnrollment/button_Next'))
 
 WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Client_Details/button_Yes Accept Override'))
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////// THIS PART IS THE ADDRESS SECTION ///////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_land Islands_Input_MN'),
+	'9090000200')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Place of Birth_InputDOB'),
+	'Sample Place of Birth 01')
+
+//Input the Generated Email Address into the text box
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Email Address_InputAddress'), randomEmailAddressesList[0]
+)
+
+
+///WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Email Address_InputAddress'),
+	//'Smokeynagata@sample.com')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_House Number_InputHN'),
+	'1002')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/select_PresentPermanent'),
+	'0', true)
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Street_InputStreet'),
+	'Sample Street 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Barangay_InputBrangay'),
+	'Sample Barangay 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_City_InputCity'),
+	'Sample City 01')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_ZipCode_InputZipcode'),
+	'4123')
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Province_InputProvince'),
+	'Sample Province 01')
+
+WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/span_Next'))
 

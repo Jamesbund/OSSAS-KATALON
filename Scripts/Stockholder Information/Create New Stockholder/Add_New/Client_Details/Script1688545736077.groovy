@@ -29,14 +29,20 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnro
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnrollment/select_--Select--FemaleMale'), '1', 
     true)
 
-// List of predefined names
-List<Integer> namesList = ['John', 'Alice', 'Michael', 'Emily', 'James', 'Sophia', 'William', 'Olivia', 'Robert', 'Emma'
-	, 'David', 'Ava' // Add more names as needed
+///////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// List of predefined names
+List<String> namesList = ['John', 'Jake', 'Michael', 'Jobert', 'James', 'Bogart', 'William', 'Oliver', 'Robert', 'Akira'
+	, 'David', 'Tendou', 'Condoriano', 'Sendo', 'Jin', 'Hordy', 'Tony', 'Chris' // Add more names as needed
 ]
 
+List<String> MInamesList = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N'
+	, 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'
+	
+]	
+
 // List of predefined surnames
-List<Integer> surnamesList = ['Smith', 'Johnson', 'Brown', 'Davis', 'Miller', 'Wilson', 'Anderson', 'Taylor', 'Thomas', 'Jackson'
-	, 'White', 'Jones' // Add more surnames as needed
+List<String> surnamesList = ['Smith', 'Johnson', 'Brown', 'Davis', 'Miller', 'Wilson', 'Anderson', 'Taylor', 'Thomas', 'Jackson'
+	, 'White', 'Jones', 'Hernandez', 'Perez', 'Martinez', 'Trevor', 'Stark', 'Evans', 'Hemsworth', 'Romanof', 'York' // Add more surnames as needed
 ]
 
 // Define the number of random names to generate
@@ -46,25 +52,30 @@ int numberOfRandomNames = 9
 Random random = new Random()
 
 // Initialize a list to store the random full names
-List<Integer> randomFullNamesList = new ArrayList<Integer>()
+List<String> randomFullNamesList = new ArrayList<String>()
 
 // Generate random names and surnames and add them to the list
 for (int i = 0; i < numberOfRandomNames; i++) {
 	int randomNameIndex = random.nextInt(namesList.size())
+	
+	
+	int randomMINameIndex = random.nextInt(MInamesList.size())
 
 	int randomSurnameIndex = random.nextInt(surnamesList.size())
 
 	String randomName = namesList[randomNameIndex]
+	
+	String randomMInameIndex = MInamesList[randomMINameIndex]
 
 	String randomSurname = surnamesList[randomSurnameIndex]
 
-	String randomFullName = (randomName + ' ') + randomSurname
+	String randomFullName = randomName + " " + randomMInameIndex  + " " + randomSurname
 
 	randomFullNamesList.add(randomFullName)
 }
 
 // Output the list of random full names
-println('Random Full Names: ' + randomFullNamesList)
+println("Random Full Names: " + randomFullNamesList)
 
 // Assuming you have two input fields where you want to set the random names and surnames
 String inputField1Locator = 'your/input/field1/locator'
@@ -78,10 +89,14 @@ WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input
 	)
 
 
-WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Middle Name_Input_FirstName2'), 'M')
-
-WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Last Name_Input_FirstName3'), nameParts[1] // Set last name in inputField2
+WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Middle Name_Input_FirstName2'),  nameParts[1] // Middle Name
 )
+
+WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Last Name_Input_FirstName3'), nameParts[2] // Set last name in inputField2
+)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //WebUI.setText(findTestObject('Object Repository/Page_StockholderEnrollment/input_Last Name_Input_FirstName3'), 'Nagata')
 

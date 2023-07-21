@@ -24,4 +24,9 @@
       <initValue>findTestObject('Create New Stockholder/Page_StockholderEnrollment/SME_Tagging1/Page_StockholderEnrollment/span_Cavite')</initValue>
       <name>SME_Region1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>iterationValue</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

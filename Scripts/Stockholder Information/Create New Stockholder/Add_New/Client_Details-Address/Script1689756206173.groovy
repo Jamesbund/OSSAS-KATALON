@@ -32,7 +32,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_StockholderEnro
 ///////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// List of predefined names
 List<String> namesList = ['John', 'Jake', 'Michael', 'Jobert', 'James', 'Bogart', 'William', 'Oliver', 'Robert', 'Akira'
-	, 'David', 'Tendou', 'Condoriano', 'Sendo', 'Jin', 'Hordy', 'Tony', 'Chris' // Add more names as needed
+	, 'David', 'Tendou', 'Condoriano', 'Sendo', 'Jin', 'Hordy', 'Tony', 'Chris', 'Bruce', 'Junnie' // Add more names as needed
 ]
 
 List<String> MInamesList = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N'

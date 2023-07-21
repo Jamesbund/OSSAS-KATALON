@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Random as Random
+
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 //
 import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
@@ -81,12 +83,63 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockhold
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--MemberNonMemberStaff'), 
     '0', true)
 
-Random snum1 = new Random()
+// Define the file path to store the global variable value
+def filePath = "C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt" // Replace with the actual file path
 
-int randomNumber1 = snum1.nextInt(999999999)
+// Function to read the value from the file
+def readGlobalValueFromFile() {
+	try {
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+		if (file.exists()) {
+			return Integer.parseInt(file.text)
+		}
+	} catch (Exception e) {
+		// Handle any potential exceptions while reading the file
+		// You can log an error or take appropriate actions here
+	}
+	return null
+}
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), 
-    randomNumber1.toString())
+// Function to write the value to the file
+def writeGlobalValueToFile(int value) {
+	try {
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+		file.text = value.toString()
+	} catch (Exception e) {
+		// Handle any potential exceptions while writing to the file
+		// You can log an error or take appropriate actions here
+	}
+}
+
+// Get the initial value from the file
+def initialValue = readGlobalValueFromFile()
+if (initialValue == null) {
+	initialValue = 0 // Set the initial value if the file doesn't exist or is empty
+}
+
+// Define the number of iterations
+def numberOfIterations = 1 // Change this value to set the number of iterations you need
+
+// Start the loop
+for (int i = 0; i < numberOfIterations; i++) {
+	// Perform your web automation actions here using 'initialValue'
+	
+	WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), initialValue.toString()) // Replace 'yourTestObject' with the actual Test Object
+
+	// Add other web automation actions as needed
+
+
+	// Increment the 'initialValue' by 1 for the next iteration
+	initialValue++
+
+	// Save the updated 'initialValue' back to the file after each iteration
+	writeGlobalValueToFile(initialValue)
+}
+
+//WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/input_Full Name_userName'), iterationValue.toString())
+
+//WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), 
+    //randomNumber1.toString())
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Next'))
 

@@ -29,6 +29,11 @@ public class GlobalVariable {
      */
     public static Object SME_Region1
      
+    /**
+     * <p></p>
+     */
+    public static Object iterationValue
+     
 
     static {
         try {
@@ -40,6 +45,7 @@ public class GlobalVariable {
             Username = selectedVariables['Username']
             Password = selectedVariables['Password']
             SME_Region1 = selectedVariables['SME_Region1']
+            iterationValue = selectedVariables['iterationValue']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

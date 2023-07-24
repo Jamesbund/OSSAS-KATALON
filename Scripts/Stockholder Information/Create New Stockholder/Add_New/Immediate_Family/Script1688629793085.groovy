@@ -17,13 +17,57 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_ImmediateContact Person_Immediate_Con_5c3087'),
-	'Megatron Griffin')
+List<String> namesList = ['Jose', 'Ligaya', 'Reyna', 'Joselito', 'Coco', 'Bogart', 'Maria', 'Oliver','Xander', 'Robert', 'Akira'
+	, 'David', 'Tendou','Chris', 'Bruce', 'Jeff', 'Kim', 'Mark','Clark',
+	'Peter','Glenn','Tom','Jeremy','Robert', 'Kevin','Samuel','Niño' // Add more names as needed
+]
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_land Islands_ImmediateContactNumberS'),
-	'9091000000')
+// List of predefined surnames
+List<String> surnamesList = ['Santos', 'Dela Cruz', 'Garcia', 'Reyes', 'Ramos', 'Mendoza', 'Flores', 'Gonzales', 'Dela Peña', 'Jacob'
+	, 'Pascual', 'Jones', 'Hernandez', 'Perez', 'Martinez', 'Ignacio', 'Dolores', 'Cristobal', 'Calihan', 'Gill', 'York','Rogers','Isaac','Grant','Spector','Barzaga' // Add more surnames as needed
+]
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Immediate Address_ImmediateContactNumber2'),
-	'Sample Immediate Address 01')
+// Define the number of random names to generate
+int numberOfRandomNames = 9
+
+// Create a Random object
+Random random = new Random()
+
+// Initialize a list to store the random full names
+List<String> randomFullNamesList = new ArrayList<String>()
+
+List<String> randomEmailAddressesList = new ArrayList<String>()
+
+// Generate random names and surnames and add them to the list
+for (int i = 0; i < numberOfRandomNames; i++) {
+	int randomNameIndex = random.nextInt(namesList.size())
+
+	int randomSurnameIndex = random.nextInt(surnamesList.size())
+	
+	String randomName = namesList[randomNameIndex]
+	
+	String randomSurname = surnamesList[randomSurnameIndex]
+	
+	String randomFullName = ((randomName + ' ') + ' ') + randomSurname
+	
+	randomFullNamesList.add(randomFullName)
+	}
+	
+	// Output the list of random full names
+	println('Random Full Names: ' + randomFullNamesList)
+
+	// Set the generated random names and surnames in the input fields
+	String[] nameParts = (randomFullNamesList[0]).split(' ')
+	
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_ImmediateContact Person_Immediate_Con_5c3087'), 
+    nameParts[0] + nameParts[2])
+
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_land Islands_ImmediateContactNumberS'), 
+    '9091000000')
+
+WebUI.setText(findTestObject('Spy Elements/Page_StockholderEnrollment/input_Immediate Address_ImmediateContactNumber (final11)'), 
+    'Sample Immediate Address 01')
 
 WebUI.click(findTestObject('Object Repository/Page_StockholderEnrollment/button_Next'))
+

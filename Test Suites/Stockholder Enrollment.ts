@@ -26,17 +26,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>587580cd-550b-4331-90fc-5ee5197da166</guid>
+      <guid>1edd1813-e4e0-4d3d-9038-ba693ff0b3f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Client_Details</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1137959d-76b4-41ff-88a3-f2db448f3ff1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Address</testCaseId>
+      <testCaseId>Test Cases/Stockholder Information/Create New Stockholder/Add_New/Client_Details-Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

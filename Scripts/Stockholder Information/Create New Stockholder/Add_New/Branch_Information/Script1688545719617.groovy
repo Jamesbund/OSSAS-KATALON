@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Random as Random
-
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 //
 import java.util.Calendar as Calendar
@@ -32,31 +31,27 @@ WebUI.click(findTestObject('Page_UserManagement/div_Profile'))
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_DasHboaRd/span_Add New'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
-    '0', true)
+WebUI.delay(30)
 
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
+//'0', true)
 'Select Region'
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/div_Select'))
 
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_REGION 4-A'))
-
+//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/div_Select'))
+//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_REGION 4-A'))
 'Select Branch'
-WebUI.click(findTestObject('Page_StockholderEnrollment/div_SelectBranch'))
 
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Barleta'))
-
+//WebUI.click(findTestObject('Page_StockholderEnrollment/div_SelectBranch'))
+//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Barleta'))
 'Select Unit'
-WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Page_StockholderEnrollment/div_SelectUnit'))
 
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_SPC 2'))
-
-'Select Center'
-WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Page_StockholderEnrollment/div_SelectCenter'))
-
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_AKAP 1'))
-
+//WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Page_StockholderEnrollment/div_SelectUnit'))
+//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_SPC 2'))
+//WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Page_StockholderEnrollment/div_SelectCenter'))
+//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_AKAP 1'))
 //
 // Get the current date and create a Calendar instance
+'Select Center'
 Calendar currentDate = Calendar.getInstance()
 
 // subtract 3 years to the current date
@@ -77,44 +72,26 @@ WebUI.setText(findTestObject('Create New Stockholder/Page_StockholderEnrollment/
 
 WebUI.mouseOver(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_Date Of Recognition_Input_TextVar6'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--Individual ShareholderCorp_3d3b64'), 
+WebUI.selectOptionByValue(findTestObject('Types/Page_StockholderEnrollment/select_--Select--Individual ShareholderCorporate Shareholder'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--MemberNonMemberStaff'), 
+WebUI.selectOptionByValue(findTestObject('Types/Page_StockholderEnrollment/select_--Select--MemberNonMemberStaff (2)'), 
     '0', true)
 
 // Define the file path to store the global variable value
-def filePath = "C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt" // Replace with the actual file path
+def filePath = 'C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt' // Replace with the actual file path
 
 // Function to read the value from the file
-def readGlobalValueFromFile() {
-	try {
-		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
-		if (file.exists()) {
-			return Integer.parseInt(file.text)
-		}
-	} catch (Exception e) {
-		// Handle any potential exceptions while reading the file
-		// You can log an error or take appropriate actions here
-	}
-	return null
-}
-
+// Handle any potential exceptions while reading the file
+// You can log an error or take appropriate actions here
 // Function to write the value to the file
-def writeGlobalValueToFile(int value) {
-	try {
-		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
-		file.text = value.toString()
-	} catch (Exception e) {
-		// Handle any potential exceptions while writing to the file
-		// You can log an error or take appropriate actions here
-	}
-}
-
+// Handle any potential exceptions while writing to the file
+// You can log an error or take appropriate actions here
 // Get the initial value from the file
 def initialValue = readGlobalValueFromFile()
+
 if (initialValue == null) {
-	initialValue = 0 // Set the initial value if the file doesn't exist or is empty
+    initialValue = 0 // Set the initial value if the file doesn't exist or is empty
 }
 
 // Define the number of iterations
@@ -122,24 +99,45 @@ def numberOfIterations = 1 // Change this value to set the number of iterations 
 
 // Start the loop
 for (int i = 0; i < numberOfIterations; i++) {
-	// Perform your web automation actions here using 'initialValue'
-	
-	WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), initialValue.toString()) // Replace 'yourTestObject' with the actual Test Object
+    // Perform your web automation actions here using 'initialValue'
+    WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), 
+        initialValue.toString( // Replace 'yourTestObject' with the actual Test Object
+            ))
 
-	// Add other web automation actions as needed
+    // Add other web automation actions as needed
+    // Increment the 'initialValue' by 1 for the next iteration
+    initialValue++
 
-
-	// Increment the 'initialValue' by 1 for the next iteration
-	initialValue++
-
-	// Save the updated 'initialValue' back to the file after each iteration
-	writeGlobalValueToFile(initialValue)
+    // Save the updated 'initialValue' back to the file after each iteration
+    writeGlobalValueToFile(initialValue)
 }
 
 //WebUI.setText(findTestObject('Object Repository/Page_DEMOQA/input_Full Name_userName'), iterationValue.toString())
-
 //WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/input_CIFID Number_Input_TextVar'), 
-    //randomNumber1.toString())
-
+//randomNumber1.toString())
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Next'))
+
+def readGlobalValueFromFile() {
+    try {
+        File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+
+        if (file.exists()) {
+            return Integer.parseInt(file.text)
+        }
+    }
+    catch (Exception e) {
+    } 
+    
+    return null
+}
+
+def writeGlobalValueToFile(int value) {
+    try {
+        File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+
+        file.text = value.toString()
+    }
+    catch (Exception e) {
+    } 
+}
 

@@ -16,13 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
+import java.util.Random as Random
 //
 import java.time.LocalDate as LocalDate
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 //
+
+Random snum1 = new Random()
+
+int randomNumber1 = snum1.nextInt(999)
+
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Account Number_FinalstepAccountNumber'), 
-    '1000011')
+    '100'+ randomNumber1.toString())
 
 // Get the current date
 LocalDate currentDate = LocalDate.now()
@@ -49,7 +56,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockhold
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/span_Preview'))
 
-WebUI.delay(6)
+WebUI.delay(600)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/span_CARD Bank, Inc'), 
     'CARD Bank, Inc.')

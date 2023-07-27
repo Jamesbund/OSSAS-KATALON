@@ -18,13 +18,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 List<String> namesList = ['Jose', 'Ligaya', 'Reyna', 'Joselito', 'Coco', 'Bogart', 'Maria', 'Oliver','Xander', 'Robert', 'Akira'
-	, 'David', 'Tendou','Chris', 'Bruce', 'Jeff', 'Kim', 'Mark','Clark',
-	'Peter','Glenn','Tom','Jeremy','Robert', 'Kevin','Samuel','Niño' // Add more names as needed
+	, 'David', 'Tendou','Chris', 'Bruce', 'Jeff', 'Kim', 'Mark','Clark','Jack',
+	'Peter','Glenn','Tom','Jeremy','Robert', 'Kevin','Samuel','Niño','Natasha','June','July','Douglass','April', 'May','Stella', 
+	'Maria','Janice','Sol','Akiko','Leonora','Celeste','Daniel','Paolo','Miguel','Jasey','Kaloy','Jamie','Sunny' // Add more names as needed
 ]
 
 // List of predefined surnames
-List<String> surnamesList = ['Santos', 'Dela Cruz', 'Garcia', 'Reyes', 'Ramos', 'Mendoza', 'Flores', 'Gonzales', 'Dela Peña', 'Jacob'
-	, 'Pascual', 'Jones', 'Hernandez', 'Perez', 'Martinez', 'Ignacio', 'Dolores', 'Cristobal', 'Calihan', 'Gill', 'York','Rogers','Isaac','Grant','Spector','Barzaga' // Add more surnames as needed
+List<String> surnamesList = ['Santos', 'Dela Cruz', 'Garcia', 'Reyes','Roberto', 'Ramos', 'Mendoza', 'Flores', 'Gonzales', 'Dela Peña', 'Jacob'
+	, 'Pascual', 'Jones', 'Hernandez', 'Perez', 'Martinez', 'Ignacio', 'Dolores','Elena', 'Cristobal', 'Calihan', 'Gill', 'York','Rogers','Isaac',
+	'Grant','Spector','Barzaga','Quill','Edwards','Caesar','Benjamin','Rae' // Add more surnames as needed
 ]
 
 // Define the number of random names to generate
@@ -61,7 +63,7 @@ for (int i = 0; i < numberOfRandomNames; i++) {
 	
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_ImmediateContact Person_Immediate_Con_5c3087'), 
-    nameParts[0] + nameParts[2])
+    nameParts[0] + " " +nameParts[2])
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_land Islands_ImmediateContactNumberS'), 
     '9091000000')

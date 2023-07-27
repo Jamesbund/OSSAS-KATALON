@@ -41,7 +41,7 @@ List<String> MInamesList = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K
 
 // List of predefined surnames
 List<String> surnamesList = ['Smith', 'Johnson', 'Brown', 'Davis', 'Miller', 'Wilson', 'Anderson', 'Taylor', 'Thomas', 'Jackson'
-    , 'White', 'Jones', 'Hernandez', 'Perez', 'Martinez', 'Trevor', 'Stark', 'Evans', 'Hemsworth', 'Romanof', 'York','Young','Barton','Renner','Johansson','Ford',
+    , 'White', 'Jones', 'Hernandez', 'Perez', 'Martinez', 'Trevor', 'Stark', 'Evans', 'Hemsworth', 'Romanoff', 'York','Young','Barton','Renner','Johansson','Ford',
 	'Ruffalo','Rogers','Isaac','Grant','Spector','Barzaga' // Add more surnames as needed
 ]
 

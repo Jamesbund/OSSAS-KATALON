@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Stockholder Information_osui-submenu__h_be17fb</name>
+   <tag></tag>
+   <elementGuidId>22365983-59c8-414e-ae2a-43c0fb863adb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b2-b3-SubMenuHeader > div.osui-submenu__header__icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b2-b3-SubMenuHeader']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>99edef11-057d-465e-89d6-7e91af01af00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>osui-submenu__header__icon</value>
+      <webElementGuid>d0cf9c74-595a-4aa5-8bac-213d7bc56074</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-b3-SubMenuHeader&quot;)/div[@class=&quot;osui-submenu__header__icon&quot;]</value>
+      <webElementGuid>e1f4eacb-fadd-4837-bffd-ffc091d80c56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-b3-SubMenuHeader']/div[2]</value>
+      <webElementGuid>f12a2eaf-2c0b-481f-aee9-c6688e14b2c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]</value>
+      <webElementGuid>7525fcab-19f4-437a-8b70-e4137dd29446</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

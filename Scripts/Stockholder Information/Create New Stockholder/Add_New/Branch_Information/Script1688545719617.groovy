@@ -31,24 +31,29 @@ WebUI.click(findTestObject('Page_UserManagement/div_Profile'))
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_DasHboaRd/span_Add New'))
 
-WebUI.delay(30)
+//WebUI.delay(30)
+WebUI.selectOptionByValue(findTestObject('Spy Elements/BranchInfo/Page_StockholderEnrollment/select_--Select--CARD Bank, Inc.CARD SME Bank Inc.CARD MRI Rizal Bank Inc.CARD Inc'), 
+    '0', true)
 
-//WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
-//'0', true)
 'Select Region'
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/div_Select_Region'))
 
-//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/div_Select'))
-//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_REGION 4-A'))
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/span_REGION 4-A'))
+
 'Select Branch'
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/div_Select_Branch'))
 
-//WebUI.click(findTestObject('Page_StockholderEnrollment/div_SelectBranch'))
-//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_Barleta'))
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/span_Barleta'))
+
 'Select Unit'
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/div_Select_Unit'))
 
-//WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Page_StockholderEnrollment/div_SelectUnit'))
-//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_SPC 2'))
-//WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Page_StockholderEnrollment/div_SelectCenter'))
-//WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/span_AKAP 1'))
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/span_SPC 2'))
+
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/div_Select_Center'))
+
+WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/span_AKAP 1'))
+
 //
 // Get the current date and create a Calendar instance
 'Select Center'

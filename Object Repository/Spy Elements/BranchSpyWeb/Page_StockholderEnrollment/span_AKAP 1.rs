@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_AKAP 1</name>
+   <tag></tag>
+   <elementGuidId>d2fb5261-9f62-4661-a8f8-2b8e8cfdf694</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#vscomp-option-2544-0 > span.vscomp-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '
+            AKAP 1
+          ' or . = '
+            AKAP 1
+          ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>797e1b86-6bb8-4770-820e-853b5c5942a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vscomp-option-text</value>
+      <webElementGuid>4d45340c-28c6-421b-91fa-efd1550b85aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip</name>
+      <type>Main</type>
+      <value>AKAP 1</value>
+      <webElementGuid>fc402cb8-f6b2-4733-bdd6-df0a84a8a39d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-enter-delay</name>
+      <type>Main</type>
+      <value>200</value>
+      <webElementGuid>f473432c-34dc-44ad-a878-9e1d8564cdb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-z-index</name>
+      <type>Main</type>
+      <value>251</value>
+      <webElementGuid>acf4693f-09af-4250-aae6-a45c9085f29d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-font-size</name>
+      <type>Main</type>
+      <value>14px</value>
+      <webElementGuid>fd3368d9-0772-4681-8c54-267370b9f95f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-alignment</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>73c4352a-40b1-4365-8513-e536410b8e56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-max-width</name>
+      <type>Main</type>
+      <value>300px</value>
+      <webElementGuid>41c7a187-451d-4b31-b855-8b149c9ea177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-ellipsis-only</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>de0ddde9-477b-4929-8248-887f87dad9d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-allow-html</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>b82d13d3-5214-46d4-9422-16782aecc370</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            AKAP 1
+          </value>
+      <webElementGuid>7ede93ae-356e-44fa-a5ff-c0174869a2e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-option-2544-0&quot;)/span[@class=&quot;vscomp-option-text&quot;]</value>
+      <webElementGuid>e4470161-7b7b-453c-b78d-002f5c2d2874</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-option-2544-0']/span</value>
+      <webElementGuid>56e5583c-08c7-4013-b8ad-c868d73e7472</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[4]/following::span[1]</value>
+      <webElementGuid>47c61e58-1de3-48da-a4a9-ca9b24e0d2ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='There are no options to show.'])[6]/following::span[3]</value>
+      <webElementGuid>22569513-3812-4ffe-86e2-b14ee22fc15e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKAP 1 ( MAAGAP )'])[1]/preceding::span[1]</value>
+      <webElementGuid>a1f9a154-e766-4f47-be26-4b70204e6938</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AKAP 1 SPC'])[1]/preceding::span[2]</value>
+      <webElementGuid>b83e1dcb-8779-4d95-8964-c4036a4203a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='AKAP 1']/parent::*</value>
+      <webElementGuid>98482ffc-3f66-41c3-88ec-e4fe2e0793c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div[2]/div/div/span</value>
+      <webElementGuid>11f1c059-9e4a-4a51-bf5b-a7f5d12d4f50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            AKAP 1
+          ' or . = '
+            AKAP 1
+          ')]</value>
+      <webElementGuid>5bfc023b-f89e-490f-b32b-e2842d7f1807</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

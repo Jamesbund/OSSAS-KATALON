@@ -4,5 +4,9 @@
    <name>Logout</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
    <testCaseGuid>97e10f6d-b243-407b-ad5e-38f446386581</testCaseGuid>
+=======
+   <testCaseGuid>221206cd-151d-4d94-bcc9-4386127cc5e8</testCaseGuid>
+>>>>>>> Mybranch
 </TestCaseEntity>

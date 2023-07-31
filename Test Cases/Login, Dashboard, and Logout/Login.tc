@@ -4,5 +4,9 @@
    <name>Login</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
    <testCaseGuid>ea8a8261-bd76-4f1c-b73b-6fbd2e480823</testCaseGuid>
+=======
+   <testCaseGuid>8f8c0b14-b351-445b-920e-3ded97414532</testCaseGuid>
+>>>>>>> Mybranch
 </TestCaseEntity>

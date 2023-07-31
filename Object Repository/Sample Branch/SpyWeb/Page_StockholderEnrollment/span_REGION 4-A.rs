@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_REGION 4-A</name>
+   <tag></tag>
+   <elementGuidId>0b7d89b1-5f53-4632-9412-f5d6fbfff5ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#vscomp-option-2011-2 > span.vscomp-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '
+            REGION 4-A
+          ' or . = '
+            REGION 4-A
+          ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8802f040-5b59-4c28-bcc4-e291d2cc881c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vscomp-option-text</value>
+      <webElementGuid>ea146cf3-62ae-49af-b669-d1f2c81758a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip</name>
+      <type>Main</type>
+      <value>REGION 4-A</value>
+      <webElementGuid>d1f8b2d9-e433-4d1b-8ef0-edb7329e708b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-enter-delay</name>
+      <type>Main</type>
+      <value>200</value>
+      <webElementGuid>10adcd82-a355-4a50-a78b-3997bcd75680</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-z-index</name>
+      <type>Main</type>
+      <value>251</value>
+      <webElementGuid>893ebc4c-c66d-426d-a5ee-135d8edc640f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-font-size</name>
+      <type>Main</type>
+      <value>14px</value>
+      <webElementGuid>ead5b4b0-3fb6-4bfb-a0dd-f9cc3ed6eee2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-alignment</name>
+      <type>Main</type>
+      <value>center</value>
+      <webElementGuid>cc3e0b68-cb95-4fad-8b15-db187f1bd28c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-max-width</name>
+      <type>Main</type>
+      <value>300px</value>
+      <webElementGuid>987148c3-0dd8-4dea-94c5-d0c715ca162d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-ellipsis-only</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>91c4cf05-ef33-4527-9d97-e77d28510f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-tooltip-allow-html</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>1fb4115a-ff29-4c9c-9bfc-e7610203e7b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            REGION 4-A
+          </value>
+      <webElementGuid>a323ab33-ac2e-4543-9148-21133c6bbf45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vscomp-option-2011-2&quot;)/span[@class=&quot;vscomp-option-text&quot;]</value>
+      <webElementGuid>cfb82930-a129-43f4-8a15-0bac4015a4ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vscomp-option-2011-2']/span</value>
+      <webElementGuid>4e59ecc2-849f-496a-8d9b-6fffdcb28b45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NCR'])[1]/following::span[1]</value>
+      <webElementGuid>284d0d13-a3d2-4597-a3e5-2bd55d456679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CAR'])[1]/following::span[2]</value>
+      <webElementGuid>24eb09e0-0049-4fc5-944f-cd52983d53aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REGION 4-B'])[1]/preceding::span[1]</value>
+      <webElementGuid>cea61bcd-1ede-4cfe-ae7a-48f2b3d75dd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='REGION I'])[1]/preceding::span[2]</value>
+      <webElementGuid>324a210d-fada-4fc7-b9ca-da723a0cf3e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='REGION 4-A']/parent::*</value>
+      <webElementGuid>68037258-66ea-4ef4-bc93-b182746a4455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>ce1b765f-5d19-4164-8953-7781b6920c11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '
+            REGION 4-A
+          ' or . = '
+            REGION 4-A
+          ')]</value>
+      <webElementGuid>34a97336-8743-4e95-a51e-5228991853f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

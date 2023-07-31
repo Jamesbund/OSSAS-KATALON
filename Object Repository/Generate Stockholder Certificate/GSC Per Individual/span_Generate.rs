@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Generate</name>
+   <tag></tag>
+   <elementGuidId>635cd60b-2e89-43da-b566-f29d9751d6cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b8-Column2']/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.OSFillParent > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>858e4ea3-c3a9-4d30-ae7a-d56191192b5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Generate</value>
+      <webElementGuid>f4a71df0-a351-461d-8c1e-7ad8f3ea25a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b8-Column2&quot;)/button[@class=&quot;btn OSFillParent&quot;]/span[1]</value>
+      <webElementGuid>5e27e3bc-5602-46a4-aae0-df3e70ba37d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b8-Column2']/button/span</value>
+      <webElementGuid>5f74db41-3a59-4dbc-abbf-7777c344b437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CID/CIF'])[1]/following::span[2]</value>
+      <webElementGuid>27585415-e2bf-4727-b079-919a9b22eed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDF'])[1]/preceding::span[2]</value>
+      <webElementGuid>3524f942-17d7-4927-a38b-650706e48895</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Generate']/parent::*</value>
+      <webElementGuid>b921b2b3-b5d6-489b-81ec-cfd47d7775f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>f393527b-37f9-48b6-afdd-4d0cae30262e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Generate' or . = 'Generate')]</value>
+      <webElementGuid>149e6cec-5e82-4810-9aee-04b8c3ee7fc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

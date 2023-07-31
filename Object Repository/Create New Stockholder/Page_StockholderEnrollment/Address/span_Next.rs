@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Next</name>
+   <tag></tag>
+   <elementGuidId>0993be8a-a2cf-4df0-9c78-e594a03f848e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.ThemeGrid_Width2.ThemeGrid_MarginGutter > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b28-Content']/div[2]/div[3]/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>79fb2eb0-2e43-4587-9a2f-b80a3fb58725</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Next</value>
+      <webElementGuid>4e4bcc6c-252f-4b06-b2d5-99b4c7f1dfd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b28-Content&quot;)/div[@class=&quot;whiteshadow&quot;]/div[3]/button[@class=&quot;btn btn-primary ThemeGrid_Width2 ThemeGrid_MarginGutter&quot;]/span[1]</value>
+      <webElementGuid>7ad39399-8276-4373-bc55-fb5f5c6a4b15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b28-Content']/div[2]/div[3]/button[2]/span</value>
+      <webElementGuid>99e0956f-c83d-432e-9b38-eb472b1f0717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Province'])[1]/following::span[3]</value>
+      <webElementGuid>f01c0eab-77b9-487f-b171-98406b516a87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Developed by: CARD MRI Information Technology, Inc. (CMIT)'])[1]/preceding::span[1]</value>
+      <webElementGuid>82008dfd-64ee-4b80-a102-b445803fc061</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password Here!'])[1]/preceding::span[2]</value>
+      <webElementGuid>fda6b533-8ff3-43d1-bb52-66b17038115a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>d85723f9-cb43-4697-a959-8a155f5f5e8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Next' or . = ' Next')]</value>
+      <webElementGuid>eff97665-8548-4d8a-bb50-8def9f0ddf7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

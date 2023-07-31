@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import java.util.Random as Random
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 //
 import java.util.Calendar as Calendar
@@ -147,8 +148,47 @@ WebUI.click(findTestObject('Create New Stockholder/Page_StockholderEnrollment/Cl
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_land Islands_Input_MN'), 
     '9090000200')
 
-WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Place of Birth_InputDOB'), 
-    'Sample Place of Birth 01')
+
+
+def filePath = 'C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt'
+
+def initialValue = readGlobalValueFromFile()
+
+if (initialValue == null) {
+	initialValue = 0 // Set the initial value if the file doesn't exist or is empty
+}
+
+// Define the number of iterations
+def numberOfIterations = 0 // Change this value to set the number of iterations you need
+
+
+def readGlobalValueFromFile() {
+	try {
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+
+		if (file.exists()) {
+			return Integer.parseInt(file.text)
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	return null
+}
+
+def writeGlobalValueToFile(int value) {
+	try {
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+
+		file.text = value.toString()
+	}
+	catch (Exception e) {
+	}
+}
+
+//input the Generated value from the data file
+WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Place of Birth_InputDOB'), 'Sample Birthplace' + ' ' + ((initialValue)- 1).toString())
+
 
 //Input the Generated Email Address into the text box
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Email Address_InputAddress'), 

@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 List<String> namesList = ['Jose', 'Ligaya', 'Reyna', 'Joselito', 'Coco', 'Bogart', 'Maria', 'Oliver','Xander', 'Robert', 'Akira'
 	, 'David', 'Tendou','Chris', 'Bruce', 'Jeff', 'Kim', 'Mark','Clark','Jack',
@@ -68,8 +69,27 @@ WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_Stoc
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_land Islands_ImmediateContactNumberS'), 
     '9091000000')
 
+def filePath = 'C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue1.txt'
+
+def initialValue = readGlobalValueFromFile()
+
+def readGlobalValueFromFile() {
+	try {
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue1.txt')
+
+		if (file.exists()) {
+			return Integer.parseInt(file.text)
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	return null
+}
+
+
 WebUI.setText(findTestObject('Spy Elements/Page_StockholderEnrollment/input_Immediate Address_ImmediateContactNumber (final11)'), 
-    'Sample Immediate Address 01')
+    'Sample Immediate Address'+ ' ' + ((initialValue)- 1).toString())
 
 WebUI.click(findTestObject('Object Repository/Page_StockholderEnrollment/button_Next'))
 

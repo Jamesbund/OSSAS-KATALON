@@ -150,7 +150,7 @@ WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_Stoc
 
 
 
-def filePath = 'C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt'
+def filePath = 'C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue1.txt'
 
 def initialValue = readGlobalValueFromFile()
 
@@ -159,12 +159,25 @@ if (initialValue == null) {
 }
 
 // Define the number of iterations
-def numberOfIterations = 0 // Change this value to set the number of iterations you need
+def numberOfIterations = 1 // Change this value to set the number of iterations you need
+
+
+for (int i = 0; i < numberOfIterations; i++) {
+	// Perform your web automation actions here using 'initialValue'
+	
+
+	// Add other web automation actions as needed
+	// Increment the 'initialValue' by 1 for the next iteration
+	initialValue++
+
+	// Save the updated 'initialValue' back to the file after each iteration
+	writeGlobalValueToFile(initialValue)
+}
 
 
 def readGlobalValueFromFile() {
 	try {
-		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue1.txt')
 
 		if (file.exists()) {
 			return Integer.parseInt(file.text)
@@ -178,13 +191,14 @@ def readGlobalValueFromFile() {
 
 def writeGlobalValueToFile(int value) {
 	try {
-		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt')
+		File file = new File('C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue1.txt')
 
 		file.text = value.toString()
 	}
 	catch (Exception e) {
 	}
 }
+
 
 //input the Generated value from the data file
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Place of Birth_InputDOB'), 'Sample Birthplace' + ' ' + ((initialValue)- 1).toString())
@@ -209,20 +223,20 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockhold
     '0', true)
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Street_InputStreet'), 
-    'Sample Street 01')
+    'Sample Street'+ ' ' + ((initialValue)- 1).toString())
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Barangay_InputBrangay'), 
-    'Sample Barangay 01')
+    'Sample Barangay' + ' ' + ((initialValue)- 1).toString())
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_City_InputCity'), 
-    'Sample City 01')
+    'Sample City'+ ' ' + ((initialValue)- 1).toString())
 
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_ZipCode_InputZipcode'), '4' +
     randomNumber2.toString())
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/input_Province_InputProvince'), 
-    'Sample Province 01')
+    'Sample Province'+ ' ' + ((initialValue)- 1).toString())
 
 WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Address/span_Next'))
 

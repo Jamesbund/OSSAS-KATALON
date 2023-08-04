@@ -6,12 +6,16 @@
    <elementGuidId>0732382e-61a2-4902-a65b-2a2b712b2293</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#vscomp-option-3124-29 > span.vscomp-option-text</value>
+         <key>XPATH</key>
+         <value>//span[(text() = '
+            walasir 5
+          ' or . = '
+            walasir 5
+          ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='vscomp-option-3124-29']/span</value>
+         <key>CSS</key>
+         <value>#vscomp-option-3124-29 > span.vscomp-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7b6d55a5-cca1-419c-9006-1108c5f7752d</webElementGuid>
+      <webElementGuid>c110d626-21ba-4de9-bdff-98ab245944ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>vscomp-option-text</value>
-      <webElementGuid>313a1d43-db8a-4c06-ba2a-fa4ce82c75ea</webElementGuid>
+      <webElementGuid>1c9fc8a0-e5ee-4e64-8ebe-228bfe1d67fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <name>data-tooltip</name>
       <type>Main</type>
       <value>walasir 5</value>
-      <webElementGuid>97103da7-4305-480a-a24f-946094fd43f3</webElementGuid>
+      <webElementGuid>42624ca1-8a31-4712-bae5-727ffdb1e023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>data-tooltip-enter-delay</name>
       <type>Main</type>
       <value>200</value>
-      <webElementGuid>95b2ffee-2ae2-468d-bb55-a3e8e1ae2bfe</webElementGuid>
+      <webElementGuid>feeabcb8-8d6c-4549-8ba7-2323f475e478</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>data-tooltip-z-index</name>
       <type>Main</type>
       <value>251</value>
-      <webElementGuid>5feb563e-cd32-4d51-8dde-2a3caadb4300</webElementGuid>
+      <webElementGuid>cdf4d108-d5c3-4e15-ae72-ca132849f7ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>data-tooltip-font-size</name>
       <type>Main</type>
       <value>14px</value>
-      <webElementGuid>eab88cd4-e87f-499a-b84d-ab012b15c605</webElementGuid>
+      <webElementGuid>3930e55a-9818-470c-9f08-a27389fcb2cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>data-tooltip-alignment</name>
       <type>Main</type>
       <value>center</value>
-      <webElementGuid>6eb172cf-28ac-4254-a807-963ba346ec7f</webElementGuid>
+      <webElementGuid>9e5e476d-88e7-4e78-a6d0-c533f8b16094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>data-tooltip-max-width</name>
       <type>Main</type>
       <value>300px</value>
-      <webElementGuid>a23b603a-f56a-4946-bce9-b2c3689013a1</webElementGuid>
+      <webElementGuid>f2d49bb4-8feb-4eb2-8996-c0928cd56a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>data-tooltip-ellipsis-only</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>54607630-a4b6-4ce7-a8da-c181cf1059f0</webElementGuid>
+      <webElementGuid>f4c1f889-dbc5-4cfc-b907-53356f4e4ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>data-tooltip-allow-html</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f7406a6e-b7f3-4a00-a20f-2d7980936d56</webElementGuid>
+      <webElementGuid>54f03145-61ca-4b31-88c9-02c1bec604df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -104,7 +108,7 @@
       <value>
             walasir 5
           </value>
-      <webElementGuid>b20c68fe-c152-4930-a83f-f9a0e9ab80f7</webElementGuid>
+      <webElementGuid>230f3203-505b-4c29-98d2-0976b4279aa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -112,7 +116,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vscomp-option-3124-29&quot;)/span[@class=&quot;vscomp-option-text&quot;]</value>
-      <webElementGuid>7c9ffb69-6d16-4c61-a2c4-490bea51e46c</webElementGuid>
+      <webElementGuid>d0a39775-922f-4a63-9dfc-55f9574afb86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -120,7 +124,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vscomp-option-3124-29']/span</value>
-      <webElementGuid>b046102e-4dc5-43aa-9409-77ce808d8173</webElementGuid>
+      <webElementGuid>c3ca4dec-3611-469c-95f7-d8ca80ac3e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='walasir2 walasir2 walasir2'])[1]/following::span[1]</value>
-      <webElementGuid>1a9c74b8-add5-4258-bce9-c33d5093fa0b</webElementGuid>
+      <webElementGuid>e5d6df43-fc13-466d-9fe9-8394a972daf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +140,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::span[2]</value>
-      <webElementGuid>5f97b126-8f15-4ee1-9fac-8aa99940fd24</webElementGuid>
+      <webElementGuid>19ebf662-2b40-4978-87e4-9ab461ae889e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +148,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='There are no options to show.'])[1]/preceding::span[1]</value>
-      <webElementGuid>d735c9f6-8e54-4da7-99c7-6536e042c2ec</webElementGuid>
+      <webElementGuid>094e7b43-203f-4d85-b177-e72c4b7cdec3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,7 +156,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='There are no options to show.'])[2]/preceding::span[1]</value>
-      <webElementGuid>6ae5c64b-a632-426e-b515-f3fadd5679aa</webElementGuid>
+      <webElementGuid>573ffea6-9f49-455c-895a-d4d377052edc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,7 +164,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='walasir 5']/parent::*</value>
-      <webElementGuid>7fee0679-df9b-457c-84bb-1484fb0ea5db</webElementGuid>
+      <webElementGuid>80b988c7-8dd0-4fa1-9c37-e742adce497f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -168,7 +172,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/span</value>
-      <webElementGuid>6d74eceb-da04-4b75-9e7c-545aee01935b</webElementGuid>
+      <webElementGuid>784ad9f2-7450-41b3-9006-2924f5493866</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -180,6 +184,6 @@
           ' or . = '
             walasir 5
           ')]</value>
-      <webElementGuid>94d417a3-b48a-4987-a46e-4a807d5baf77</webElementGuid>
+      <webElementGuid>c9dbf775-125e-4887-a6d0-4d2d72b7a236</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

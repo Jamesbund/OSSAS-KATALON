@@ -52,7 +52,6 @@ WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment
 WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/span_SPC 2'))
 
 WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/div_Select_Center'))
-
 WebUI.click(findTestObject('Spy Elements/BranchSpyWeb/Page_StockholderEnrollment/span_AKAP 1'))
 
 //
@@ -81,8 +80,6 @@ WebUI.mouseOver(findTestObject('Object Repository/Create New Stockholder/Page_St
 WebUI.selectOptionByValue(findTestObject('Types/Page_StockholderEnrollment/select_--Select--Individual ShareholderCorporate Shareholder'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Types/Page_StockholderEnrollment/select_--Select--MemberNonMemberStaff (2)'), 
-    '0', true)
 
 // Define the file path to store the global variable value
 def filePath = 'C:/Users/j.bundalian/Desktop/MY PROJECTS/STOCKS ADMIN SYSTEM (SAS)/KATALON TALON/OSSAS-KATALON/iterationValue.txt' // Replace with the actual file path

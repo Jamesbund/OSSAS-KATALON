@@ -16,20 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import java.util.Random as Random
 //
 import java.time.LocalDate as LocalDate
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 //
-
 Random snum1 = new Random()
 
 int randomNumber1 = snum1.nextInt(999)
 
 WebUI.setText(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/input_Account Number_FinalstepAccountNumber'), 
-    '100'+ randomNumber1.toString())
+    '100' + randomNumber1.toString())
 
 // Get the current date
 LocalDate currentDate = LocalDate.now()
@@ -54,7 +52,21 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockhold
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/select_--Select--ContactPersonLandLineMobile'), 
     '0', true)
 
-WebUI.click(findTestObject('Object Repository/Create New Stockholder/Page_StockholderEnrollment/Stockholder/span_Preview'))
+Random snum3 = new Random()
+Random snum4 = new Random()
+Random snum5 = new Random()
+
+
+int randomNumber3 = snum3.nextInt(999)
+int randomNumber4 = snum4.nextInt(999)
+int randomNumber5 = snum5.nextInt(999)
+
+
+
+WebUI.setText(findTestObject('Spy Elements/Stockholders_SE/Page_StockholderEnrollment/input_TIN Number_FinalstepAccountNumber2'), 
+    randomNumber3.toString() + '-' + randomNumber4.toString() + '-' + randomNumber5.toString())
+
+WebUI.click(findTestObject('Spy Elements/Stockholders_SE/Page_StockholderEnrollment/span_PreviewFINAL'))
 
 WebUI.delay(600)
 

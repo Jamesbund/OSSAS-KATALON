@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_PreviewFINAL</name>
+   <tag></tag>
+   <elementGuidId>11bd2670-ce1d-4048-af15-fc35881235ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b28-Content']/div[2]/div[3]/button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.ThemeGrid_Width2.ThemeGrid_MarginGutter > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>645a926f-64a2-4e44-8531-9591442e69ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Preview</value>
+      <webElementGuid>10522f45-9554-4bea-8338-e3409fd6d07f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b28-Content&quot;)/div[@class=&quot;whiteshadow&quot;]/div[3]/button[@class=&quot;btn btn-primary ThemeGrid_Width2 ThemeGrid_MarginGutter&quot;]/span[1]</value>
+      <webElementGuid>9d6205c1-3abf-41f0-998e-8856208269e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b28-Content']/div[2]/div[3]/button[2]/span</value>
+      <webElementGuid>344c144a-53d2-4462-ab37-84caa8e33e01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TIN Number'])[1]/following::span[3]</value>
+      <webElementGuid>b77b8ecc-74ed-4a8c-8f55-7603317fee88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Developed by: CARD MRI Information Technology, Inc. (CMIT)'])[1]/preceding::span[1]</value>
+      <webElementGuid>a8379787-61fb-4e44-aaea-7bc537ac7744</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[2]</value>
+      <webElementGuid>e8d4869a-b7a2-4b24-b7d9-a4ef9475dea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>86e460ff-f480-48b2-9325-09c5b797b4ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Preview' or . = ' Preview')]</value>
+      <webElementGuid>ade7a28b-f15a-4d0a-ab1a-ec44653cb725</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

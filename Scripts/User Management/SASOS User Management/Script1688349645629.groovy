@@ -21,34 +21,17 @@ import java.util.Calendar as Calendar
 import java.text.SimpleDateFormat as SimpleDateFormat
 
 //
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login, Dashboard, and Logout/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/Page_DashBoardNew/div_Utilities_osui-submenu__header__icon'))
 
-WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/User Management/Page_Login/input_Username_Input_UsernameVal'), 'James Aldrine')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/User Management/Page_Login/input_Password_Input_PasswordVal'), 
-    'MHSUC33hkPnBWRnjFBNCPA==')
-
-WebUI.click(findTestObject('Object Repository/User Management/Page_Login/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/User Management/Page_DasHboaRd/span_Utilities'))
-
-WebUI.click(findTestObject('Object Repository/User Management/Page_DasHboaRd/span_User Management'))
-
-WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/i_Action_icon fa fa-chevron-down fa-1x'))
-
-WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/i_Action_icon fa fa-chevron-up fa-1x'))
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/Page_DashBoardNew/span_User Management'))
 
 WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/i_Add user_icon fa fa-user-plus fa-2x'))
 
-WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/div_Select'))
+WebUI.click(findTestObject('User Management/Page_UserManagement/div_Select'))
 
-WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Close_vscomp-search-input'), 'wala')
+WebUI.setText(findTestObject('Object Repository/User Management/Page_UserManagement/input_Close_vscomp-search-input'), 'wala')
 
 WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/span_walasir 5'))
 
@@ -69,15 +52,18 @@ println('Future Date: ' + futureDate)
 
 ////
 // Input the current date into the text box
-WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), futureDate)
+WebUI.setText(findTestObject('Object Repository/User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 
+    futureDate)
 
-WebUI.clickOffset(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 60, 0)
+WebUI.clickOffset(findTestObject('Object Repository/User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 
+    60, 0)
 
-WebUI.setText(findTestObject('User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 'a')
+WebUI.setText(findTestObject('Object Repository/User Management/Page_UserManagement/input_Expiration Date_Input_StaffId'), 
+    'a')
 
 WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_Staff Id No_Input_StaffId2'), '202209-52977')
 
-WebUI.click(findTestObject('User Management/Page_UserManagement/Page_UserManagement/Page_UserManagement/button_Nextfirst'))
+WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/Page_UserManagement/Page_UserManagement/button_Nextfirst'))
 
 WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_OK'))
 
@@ -89,7 +75,7 @@ WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_First 
 
 WebUI.setText(findTestObject('Object Repository/Page_UserManagement/input_Mobile Phone_MobileNumber'), '09090000000')
 
-WebUI.click(findTestObject('User Management/Page_UserManagement/button_Next01'))
+WebUI.click(findTestObject('Object Repository/User Management/Page_UserManagement/button_Next01'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_UserManagement/select_--Select--CARD Bank, Inc.CARD SME Ba_231bc7'), 
     '0', true)
@@ -131,4 +117,19 @@ WebUI.click(findTestObject('Object Repository/Page_UserManagement/button_Logout'
 WebUI.delay(3)
 
 WebUI.closeBrowser()
+
+/////////////////////////////////////////////////////
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
+
+WebUI.setText(findTestObject('Object Repository/Page_UserManagement/Page_Login/input_Sign in to Continue_Input_Username2'), 
+    'James Aldrine')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_UserManagement/Page_Login/input_Sign in to Continue_Input_Username3'), 
+    'MHSUC33hkPnBWRnjFBNCPA==')
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/Page_DashBoardNew/div_Utilities_osui-submenu__header__icon'))
+
+WebUI.click(findTestObject('Object Repository/Page_UserManagement/Page_DashBoardNew/span_User Management'))
 

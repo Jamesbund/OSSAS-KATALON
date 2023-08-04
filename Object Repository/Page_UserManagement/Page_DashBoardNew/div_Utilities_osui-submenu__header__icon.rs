@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_User Management_icon fa fa-power-off fa-2x</name>
+   <name>div_Utilities_osui-submenu__header__icon</name>
    <tag></tag>
-   <elementGuidId>86b830d1-b75e-4564-b0f6-d2dc62134221</elementGuidId>
+   <elementGuidId>42508e65-b260-43f9-adb8-9f05fa0007ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[4]/div/div/div/a/i</value>
+         <value>//div[@id='b2-b7-SubMenuHeader']/div[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>i.icon.fa.fa-power-off.fa-2x</value>
+         <value>#b2-b7-SubMenuHeader > div.osui-submenu__header__icon</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,39 +21,39 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-      <webElementGuid>d1290e64-ed09-449d-936a-934de05897d0</webElementGuid>
+      <value>div</value>
+      <webElementGuid>7519045f-8da0-4f62-9d96-8ed76fcf8001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>icon fa fa-power-off fa-2x</value>
-      <webElementGuid>265a379e-8949-448c-8dc2-6c57340bd574</webElementGuid>
+      <value>osui-submenu__header__icon</value>
+      <webElementGuid>370d5308-e915-450a-bc99-4917aec706dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;b2-$b9&quot;)/div[@class=&quot;user-info&quot;]/div[1]/a[1]/i[@class=&quot;icon fa fa-power-off fa-2x&quot;]</value>
-      <webElementGuid>2cf04081-4f33-4dd4-a839-da7fdc35a78e</webElementGuid>
+      <value>id(&quot;b2-b7-SubMenuHeader&quot;)/div[@class=&quot;osui-submenu__header__icon&quot;]</value>
+      <webElementGuid>cd218869-ffce-4470-84f0-3725fb045e5c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='b2-$b9']/div/div/a/i</value>
-      <webElementGuid>500c9751-668a-42d2-9a00-07fb2b809390</webElementGuid>
+      <value>//div[@id='b2-b7-SubMenuHeader']/div[2]</value>
+      <webElementGuid>c94dfc2c-dfed-4558-bd75-4d76f36e2107</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/a/i</value>
-      <webElementGuid>b6a5947c-ca6a-499f-9c67-18b29d8b4477</webElementGuid>
+      <value>//div[4]/div/div/div[2]</value>
+      <webElementGuid>490428e2-4836-4d48-9f1e-6cad8abe42bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

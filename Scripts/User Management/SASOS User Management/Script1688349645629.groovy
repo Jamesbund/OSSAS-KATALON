@@ -118,18 +118,3 @@ WebUI.delay(3)
 
 WebUI.closeBrowser()
 
-/////////////////////////////////////////////////////
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://cmiti-dev.outsystemsenterprise.com/STOCKSADMINSYSTEMS/Login')
-
-WebUI.setText(findTestObject('Object Repository/Page_UserManagement/Page_Login/input_Sign in to Continue_Input_Username2'), 
-    'James Aldrine')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_UserManagement/Page_Login/input_Sign in to Continue_Input_Username3'), 
-    'MHSUC33hkPnBWRnjFBNCPA==')
-
-WebUI.click(findTestObject('Object Repository/Page_UserManagement/Page_DashBoardNew/div_Utilities_osui-submenu__header__icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_UserManagement/Page_DashBoardNew/span_User Management'))
-
